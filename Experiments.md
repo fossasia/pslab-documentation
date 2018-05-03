@@ -31,7 +31,7 @@
 ---
 ## Electronics Experiments
 
-* Transistors
+### Transistors
   * BJT
     * Input Characteristics
     * Output Characteristics
@@ -46,7 +46,7 @@
     * FET Transistor as a Switch
     * FET Transistor as an Amplifier
     
-* Diodes
+### Diodes
   * Diode - IV Characteristics
   * Zener Diode - IV Characteristics
   * Clamping
@@ -55,7 +55,7 @@
     * Half Wave Rectifier
     * Full Wave Rectifier
 
-* OpAmps
+### OpAmps
   * Inverting OpAmp
   * Non-Inverting OpAmp
   * Precision Rectifier
@@ -65,7 +65,7 @@
     * Differentiator
     * Integrator
 
-* Oscillators
+### Oscillators
   * Astable Multivibrator
   * Monostable Multivibrator
   * Wien Bridge Oscillator
