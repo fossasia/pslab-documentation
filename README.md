@@ -17,17 +17,17 @@
 ---
 ## School Experiments
 
-* Measure Voltages
-* Measure Resistance
-* Measure Capacitance
-* Ohms' Law
-* Human Body Resistance
-* Resistance of Water
-* Lemon Cell
-* Light Dependant Resistor
+* [Measure Voltages](https://github.com/fossasia/pslab-experiments/blob/master/experiments/A_AC_AND_DC.md)
+* [Measure Resistance](https://github.com/fossasia/pslab-experiments/blob/master/experiments/R_ResistanceMeasurement.md)
+* [Measure Capacitance](https://github.com/fossasia/pslab-experiments/blob/master/experiments/I_CAPACITANCE.md)
+* [Ohms' Law](https://github.com/fossasia/pslab-experiments/blob/master/experiments/E_OhmsLaw.md)
+* [Human Body Resistance](https://github.com/fossasia/pslab-experiments/blob/master/experiments/E_RESISTANCE_BODY.md)
+* [Resistance of Water](https://github.com/fossasia/pslab-experiments/blob/master/experiments/F_WATER_RESISTANCE.md)
+* [Lemon Cell](https://github.com/fossasia/pslab-experiments/blob/master/experiments/B_LEMON_CELL.md)
+* [Light Dependant Resistor](https://github.com/fossasia/pslab-experiments/blob/master/experiments/K_LDR.md)
 * Electromagnetic Induction
-* Semiconductor Diode
-* AC Generator
+* [Semiconductor Diode](https://github.com/fossasia/pslab-experiments/blob/master/experiments/J_DIODE.md)
+* [AC Generator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/C_AC_GENERATOR.md)
 ---
 ## Electronics Experiments
 
@@ -65,7 +65,7 @@
     * Differentiator
     * Integrator
 
-### Oscillators
+### Oscillatorsst of School Experiments
   * [Astable Multivibrator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/astable-multivibrator.md)
   * [Monostable Multivibrator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/M_Monostable.md)
   * [Wien Bridge Oscillator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_WIEN_BRIDGE.md)
@@ -105,7 +105,7 @@
 
 * [Speed of Sound](https://github.com/fossasia/pslab-experiments/blob/master/experiments/SpeedOfSound.md)
 * Random Sampling
-* Amplitude Modulation
+* [Amplitude Modulation](https://github.com/fossasia/pslab-experiments/blob/master/experiments/Z_ampmod.md)
 * Frequency Modulation
 ---
 ## Sensors and Accessories with PSLab
