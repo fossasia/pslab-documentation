@@ -33,62 +33,62 @@
 
 ### Transistors
   * BJT
-    * Input Characteristics
-    * Output Characteristics
-    * Transfer Characteristics
-    * BJT Transistor as a Switch
-    * BJT Transistor as an Amplifier
+    * [Input Characteristics ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_transistorCE_input.md)
+    * [Output Characteristics](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_transistorCE.md)
+    * [Transfer Characteristics ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_transistorCE_transfer.md)
+    * [BJT Transistor as a Switch ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_transistorCB.md)
+    * [BJT Transistor as an Amplifier ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_TransistorAmplifier.md)
     
   * FET
     * Input Characteristics
-    * Output Characteristics
-    * Transfer Characteristics
-    * FET Transistor as a Switch
+    * [Output Characteristics ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_NFET.md)
+    * [Transfer Characteristics ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_NFET_GS_ID.md)
+    * FET Transistor as a Switch 
     * FET Transistor as an Amplifier
     
 ### Diodes
-  * Diode - IV Characteristics
-  * Zener Diode - IV Characteristics
-  * Clamping
-  * Clipping
+  * [Diode - IV Characteristics](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_diodeIV.md)
+  * [Zener Diode - IV Characteristics ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/D_ZenerIV.md)
+  * [Clamping ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_DiodeClamping.md)
+  * [Clipping ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_DiodeClipping.md)
   * Voltage Regulation using Diodes
-    * Half Wave Rectifier
-    * Full Wave Rectifier
+    * [Half Wave Rectifier ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_halfWave.md)
+    * [Full Wave Rectifier](https://github.com/fossasia/pslab-experiments/blob/master/experiments/M_FullWave.md)
 
 ### OpAmps
-  * Inverting OpAmp
-  * Non-Inverting OpAmp
-  * Precision Rectifier
+  * [Inverting OpAmp ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_Inverting.md)
+  * [Non-Inverting OpAmp ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_NonInverting.md)
+  * [Precision Rectifier ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/Precision_Rectifier.md)
   * OpAmp Derivatives
-    * Adder
+    * [Adder ](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_Summing.md)
     * Subtractor
     * Differentiator
     * Integrator
 
 ### Oscillators
-  * Astable Multivibrator
-  * Monostable Multivibrator
-  * Wien Bridge Oscillator
-  * Colpitts Oscillator
-  * Phase Shift Oscillator
+  * [Astable Multivibrator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/astable-multivibrator.md)
+  * [Monostable Multivibrator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/M_Monostable.md)
+  * [Wien Bridge Oscillator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_WIEN_BRIDGE.md)
+  * [Colpitts Oscillator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_Colpitts.md)
+  * [Phase Shift Oscillator](https://github.com/fossasia/pslab-experiments/blob/master/experiments/L_PhaseShift.md)
 ---
 ## Electrical Experiments
 
 ### Filters
 
 * Filter Characteristics
-* Low Pass Filter
+* [Low Pass Filter](https://github.com/fossasia/pslab-experiments/blob/master/experiments/Z_VS_LowPass.md)
 * High Pass Filter
 * Band Pass Filter
 * Band Stop Filter
 
 ### Reactance and Phase
 
-* Ohms' Law
-* Capacitive Reactance
-* Inductive Reactance
-* RC Phase Shift
-* LC Phase Shift
+* [Ohms' Law](https://github.com/fossasia/pslab-experiments/blob/master/experiments/E_OhmsLaw.md)
+* [Capacitive Reactance](https://github.com/fossasia/pslab-experiments/blob/master/experiments/O_XC.md)
+* [Inductive Reactance](https://github.com/fossasia/pslab-experiments/blob/master/experiments/O_XL.md)
+* [RC Phase Shift](https://github.com/fossasia/pslab-experiments/blob/master/experiments/P_CapacitivePhaseShift.md)
+* [LR Phase Shift](https://github.com/fossasia/pslab-experiments/blob/master/experiments/P_InductivePhaseShift.md)
 * RLC Steady State
 * Transient RLC Response
 ---
@@ -103,7 +103,7 @@
 
 ### Signals
 
-* Speed of Sound
+* [Speed of Sound](https://github.com/fossasia/pslab-experiments/blob/master/experiments/SpeedOfSound.md)
 * Random Sampling
 * Amplitude Modulation
 * Frequency Modulation
@@ -111,13 +111,13 @@
 ## Sensors and Accessories with PSLab
 
 * Accessories
-  * Control Servo Motors
+  * [Control Servo Motors](https://github.com/fossasia/pslab-experiments/blob/master/experiments/G_servo_motors.md)
   * Control Stepper Motors
   
 * Sensors
   * HCSR04 Sonar Sensor
   * MPU6050 IMU Sensor
-  * DSM501 Dust Sensor
+  * [DSM501 Dust Sensor](https://github.com/fossasia/pslab-experiments/blob/master/experiments/DUST_SENSOR.md)
   * DHT11 Humidity Sensor
   * Soil Moisture Sensor
   * TCS3200 Color Sensor
