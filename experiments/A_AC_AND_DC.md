@@ -39,5 +39,5 @@ AC and DC
 
 #### Screenshot
 
-![](https://github.com/fossasia/pslab-experiments/blob/master/images/screenshots/acdc.png)
+![](https://fossasia.github.io/pslab-experiments/images/screenshots/acdc.png)
 
