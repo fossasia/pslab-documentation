@@ -3,7 +3,7 @@ Transistor Amplifier
 
 #### Schematics
 
-![](https://github.com/fossasia/pslab-experiments/blob/master/images/schematics/transistor-amp.svg)
+![](https://fossasia.github.io/pslab-experiments/images/schematics/transistor-amp.svg)
 
 * Make the Connections as shown in figure (A).
 * CH1 monitors the original waveform output from W1.

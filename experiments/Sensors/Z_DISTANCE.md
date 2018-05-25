@@ -7,7 +7,7 @@ Ultrasonic Range Finder
 
 #### Schematic
 
-![](https://github.com/fossasia/pslab-experiments/blob/master/images/screenshots/HCSR04.png)
+![](https://fossasia.github.io/pslab-experiments/images/screenshots/HCSR04.png)
 
 ### Measuring time period of a pendulum
 
@@ -15,5 +15,5 @@ Ultrasonic Range Finder
 
 #### Screenshot
 
-![](https://github.com/fossasia/pslab-experiments/blob/master/images/screenshots/HCSR04.png)
+![](https://fossasia.github.io/pslab-experiments/images/screenshots/HCSR04.png)
 

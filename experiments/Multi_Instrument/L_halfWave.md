@@ -9,7 +9,7 @@ Half-Wave Rectifier
 
 #### Schematic
 
-![](https://github.com/fossasia/pslab-experiments/blob/master/images/schematics/halfwave.svg)
+![](https://fossasia.github.io/pslab-experiments/images/schematics/halfwave.svg)
 
 * Make the Connections as shown in the figure.
 
