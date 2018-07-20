@@ -23,10 +23,11 @@ Experiments are located within the `basic` and `advanced` folders.
 2. Learning Objective
 3. Required Components
 4. Required Instruments
-4. Schematics (Circuit Diagram, Breadboard Diagram)
-5. Step-By-Step Tutorial
-6. Expected Result
-7. What to observe
-8. Videos (optional)
-9. References (optional)
+5. Schematics (Circuit Diagram, Breadboard Diagram)
+6. Step-By-Step Tutorial
+7. Expected Result
+8. What to observe
+9. Videos (optional)
 10. Troubleshoot (Common Problems)
+11. Integrated Project Ideas (optional)
+12. References (optional)
