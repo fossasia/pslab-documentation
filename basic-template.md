@@ -40,6 +40,12 @@
 -   Maecenas in erat ac justo sollicitudin volutpat.
 -   Sed lacinia ipsum eu quam dignissim, a tristique neque molestie.
 
+## Videos
+PSLab - http://pslab.io
+ 
+## References
+[How to create markdown](https://www.youtube.com/watch?v=6A5EpqqDOdk)
+
 ## Troubleshoot
 <div id="troubleshoot">
 
