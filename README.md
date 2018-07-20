@@ -4,7 +4,7 @@ This repository allow contributors to create experiments for [Pocket Science Lab
 Experiments are located within the `basic` and `advanced` folders.
 
 ### How to contribute to Experiments
-####Instructions
+**Instructions**
 
 1. Fork the repo
 1. Go to [StackEdit](https://stackedit.io/app), the [open-source](https://github.com/benweet/stackedit) Markdown editor.  
@@ -17,7 +17,7 @@ Experiments are located within the `basic` and `advanced` folders.
 8. Thanks for contributing! :smiley:
 
 
-####Suggested Structure
+**Suggested Structure**
 
 1. Title/Question
 2. Learning Objective

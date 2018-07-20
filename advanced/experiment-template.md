@@ -1,3 +1,4 @@
+
 # \<Title / Question of Experiment\>
 
 ## Learning Objective
@@ -17,15 +18,18 @@
 | 4 | Sit   | 15 |
 | 5 | Amet  | 20 |
 
+## Required Instruments
+Oscilloscope, Multimeter, Logic Analyzer
+
 ## Schematics
-#### Circuit Diagram
+### Circuit Diagram
 ![Circuit Diagram](http://via.placeholder.com/1024x512?text=Circuit+Diagram)
 
 ### Breadboard Diagram
 ![Breadboard Diagram](http://via.placeholder.com/1024x512?text=Breadboard+Diagram)
 
 ## Step-By-Step Tutorial
-| Step No. | Instruction | Picture Instruction |
+| Step | Instruction | Picture Instruction |
 |--|--|--|
 | 1 | Ut convallis nec libero ut tempor. | ![Step X](http://via.placeholder.com/256?text=Step+1) |
 | 2 | Ut convallis nec libero ut tempor. | ![Step X](http://via.placeholder.com/256?text=Step+2) |
@@ -42,9 +46,6 @@
 
 ## Videos
 PSLab - http://pslab.io
- 
-## References
-[How to create markdown](https://www.youtube.com/watch?v=6A5EpqqDOdk)
 
 ## Troubleshoot
 <div id="troubleshoot">
@@ -85,3 +86,10 @@ PSLab - http://pslab.io
 5. Morbi quis nibh at nibh pharetra ultricies sagittis vitae libero.
 ######  [Back to troubleshoot](#troubleshoot)
 </div>
+
+## Integrated Project Ideas
+
+ - Create Flying bird [link](www.google.com)
+
+## References
+[How to create markdown](https://www.youtube.com/watch?v=6A5EpqqDOdk)
