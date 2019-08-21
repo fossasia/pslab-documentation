@@ -6,8 +6,8 @@
 
 .page-header {
   /* The reason behind using background property instead of backround-color is that whenever 
-  ***  linear gradient is not supported the default theme i.e. cayman is applied. so background
-  ***  proerty resets everything and acts as a fallback better than background-color */ 
+  ***  linear gradient is not supported the default theme i.e. cayman is applied. but background
+  ***  property resets everything and thus acts as a fallback better than background-color */ 
   background: #e12b00;
   background-image: linear-gradient(to right top, #e12b00, #ad1420, #751124, #3c111b, #000000);
 }
