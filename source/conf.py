@@ -16,13 +16,9 @@
 
 import sphinx_rtd_theme
 
-extensions = [
-    "sphinx_rtd_theme",
-]
-
 # -- Project information -----------------------------------------------------
 
-project = 'PSLab'
+project = 'PSLab Docs'
 copyright = '2019, Marco A. Gutierrez'
 author = 'Marco A. Gutierrez'
 
@@ -36,6 +32,7 @@ release = '1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "sphinx_rtd_theme",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
