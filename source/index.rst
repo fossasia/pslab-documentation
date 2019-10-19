@@ -8,24 +8,31 @@ Pocket Science Labs Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Introduction to PSLab
 
    introduction
    description
 
-Science Experiment Tutorials
-============================
-
 .. toctree::
    :maxdepth: 2
-   :caption: Science Experiments Tutorials
+   :caption: Science Experiment Tutorials
 
-   tutorials/powersource.rst
+   tutorials/powersource
+   tutorials/multimeter
+   tutorials/oscilloscope
+   tutorials/wavegenerator
+   tutorials/digitalsensors
+   tutorials/analogsensors
+   tutorials/logicanalyzer
+   tutorials/imu
+   tutorials/uart
+   tutorials/servos
     
+.. toctree::
+   :maxdepth: 2
+   :caption: Advanced PSLab
 
-Indices and tables
-==================
+   wifibluetooth
+   programming
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+
