@@ -12,6 +12,9 @@ Pocket Science Labs Documentation
 
    introduction
    description
+   android
+   desktop
+   library
 
 .. toctree::
    :maxdepth: 2
