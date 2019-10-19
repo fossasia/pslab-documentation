@@ -19,6 +19,8 @@ Science Experiment Tutorials
 .. toctree::
    :maxdepth: 2
    :caption: Science Experiments Tutorials
+
+   tutorials/powersource.rst
     
 
 Indices and tables
