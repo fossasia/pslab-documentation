@@ -30,6 +30,13 @@ Pocket Science Labs Documentation
    tutorials/imu
    tutorials/uart
    tutorials/servos
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Collaborate!
+   
+   collaborate
+   template
     
 .. toctree::
    :maxdepth: 2
