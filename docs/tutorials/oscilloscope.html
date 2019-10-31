@@ -1,0 +1,286 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Oscilloscope &mdash; PSLab Docs 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Multimeter" href="multimeter.html" />
+    <link rel="prev" title="PSLab Python Library" href="../library.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PSLab Docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Introduction to PSLab</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hardware.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../android.html">Android Application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop.html">Desktop Application</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../library.html">PSLab Python Library</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Science Experiment Tutorials</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Oscilloscope</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-an-oscilloscope">What Is An Oscilloscope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use-it">How To Use It</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#experiment-measure-sound">Experiment: Measure Sound</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="multimeter.html">Multimeter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logicanalyzer.html">Logic Analyzer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sensors.html">Sensors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wavegenerator.html">Wave Generator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="powersource.html">Power Source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="luxmeter.html">Luxmeter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accelerometer.html">Accelorometer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="barometer.html">Barometer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compass.html">Compass</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gyroscope.html">Gyroscope</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermometer.html">Thermometer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roboticarm.html">Robotic Arm Servos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gassensor.html">Gas Sensor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dustsensor.html">Dust Sensor</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Advanced PSLab</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../advanced.html">Communications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../programming.html">Programming PSLab</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Collaborate!</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../collaborate.html">Collaborate with PSLab!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template.html">Template for expermients</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PSLab Docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Oscilloscope</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/tutorials/oscilloscope.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="oscilloscope">
+<h1>Oscilloscope<a class="headerlink" href="#oscilloscope" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-is-an-oscilloscope">
+<h2>What Is An Oscilloscope<a class="headerlink" href="#what-is-an-oscilloscope" title="Permalink to this headline">¶</a></h2>
+<p>An instrument used to measure voltage changes over a period of time in
+real time.</p>
+</div>
+<div class="section" id="how-to-use-it">
+<h2>How To Use It<a class="headerlink" href="#how-to-use-it" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Connect SI1 and SI2 pins on PSLab board to CH1 and CH2 pins
+respectively for Analog mode or connect SQ1,SQ2,SQ3 pins to CH1,
+CH2, CH3 pins respectively for Digital mode.</p></li>
+<li><p>Go to Wave Generator instrument in the PSLab Android application.</p></li>
+<li><p>Select either Digital or Analog mode.</p></li>
+<li><p>Set desired frequency, phase and duty(in case of Digital mode)
+values for Wave1 and Wave2 (Analog mode) or SQ1,SQ2,SQ3 (Digital
+mode).</p></li>
+<li><p>Exit from Wave Generator instrument and got to Oscilloscope
+instrument in PSLab Android application.</p></li>
+<li><p>Select either or all from the CH1, CH2, CH3 checkbox to see waves
+generated at each channel.</p></li>
+<li><p>Change timebase of the waves from the Trigger and Timebase section
+on the left control panel.</p></li>
+<li><p>Plot waves against each other from the XY-Plot section on the left
+control panel.</p></li>
+<li><p>View results of Fourier transform or curve fitting from the Data
+Analysis section on the left control panel.</p></li>
+<li><p>Use in built microphone of the smartphone as input select IN-BUILT
+MIC option on the bottom panel on the main screen.</p></li>
+<li><p>Use record button to record currently generated waves and store
+the data in a CSV file and play it back at will.</p></li>
+</ol>
+<p>In the desktop app you will see something like this:</p>
+<p><img alt="PSLab Desk Oscilloscope" src="../_images/desk_oscilloscope.jpg" /></p>
+<ol class="simple">
+<li><p>Options used to select the active channels and the range of
+measurement.</p></li>
+<li><p>Timebase adjustments and trigger options.</p></li>
+<li><p>Fourier analysis and sin/squre fitting options.</p></li>
+<li><p>XY plotting settings.</p></li>
+<li><p>Graph area.</p></li>
+<li><p>Record button.</p></li>
+</ol>
+</div>
+<div class="section" id="experiment-measure-sound">
+<h2>Experiment: Measure Sound<a class="headerlink" href="#experiment-measure-sound" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="multimeter.html" class="btn btn-neutral float-right" title="Multimeter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../library.html" class="btn btn-neutral float-left" title="PSLab Python Library" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Pocket Science Lab
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
