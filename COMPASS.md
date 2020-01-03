@@ -1,9 +1,10 @@
 # pslab-Compass
 PSLab Documentation and Experiments https://docs.pslab.io
 # EXPERIMENT TO CHECK THAT Ps-lab COMPASS DEFLECTS WHEN IT COMES IN CONTACT WITH MAGNET.
-1.REQUIREMENTS:
-Android phone with a) compass sensor and b) PSLab app installed,magnet and a compass.
-STEP 1:
++ 1.REQUIREMENTS:
++Android phone with a) compass sensor and b) PSLab app installed,magnet and a compass.
+ +STEPS:
+ +2.STEP 1:
 Take the magnet near to the compass.You will see that compass has deflecting.
 STEP 2:
 Take the magnet near to the Ps-lab Compass.You will see that, there is no delection in it.
