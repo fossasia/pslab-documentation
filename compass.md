@@ -17,7 +17,7 @@ c) Conclusion :
 d) Screenshots provided below :
 
 1)Without Current:
-![compass1](https://user-images.githubusercontent.com/58810632/71679145-e3eff480-2dac-11ea-8dd2-f9e764e93d11.jpeg)
+![compass1](Screenshot_2020-01-05-20-34-03-48.png)
 2)With Current:
 ![compass2](https://user-images.githubusercontent.com/58810632/71679169-f1a57a00-2dac-11ea-9959-007f50f315a5.jpeg)
 ![compass3](https://user-images.githubusercontent.com/58810632/71679202-0550e080-2dad-11ea-942a-fc88f415ada8.jpeg)
