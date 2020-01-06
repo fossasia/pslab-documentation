@@ -7,15 +7,15 @@ PSLab Documentation and Experiments https://docs.pslab.io
   
   Observations : 
      1. When I Pass a wire through compass then I found no deflection in the compass.
+![compass1](Screenshot_2020-01-05-20-34-03-48.png)
+
      2. When I pass current through the wire then I notice a deflection in the compass.
-   
+
+![compass2](Screenshot_2020-01-06-10-56-47-15.png)
+
   Results : PsLab compass shows deflection when I pass current through wire. 
 
 
- Screenshots:
+ Normal pic:
 
-1)Without Current:
-![compass1](Screenshot_2020-01-05-20-34-03-48.png)
-2)With Current:
-![compass2](Screenshot_2020-01-06-10-56-47-15.png)
 ![compass3](Screenshot_2020-01-05-20-34-12-65.png)
