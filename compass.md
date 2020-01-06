@@ -20,7 +20,7 @@ d) Screenshots provided below :
 ![compass1](Screenshot_2020-01-05-20-34-03-48.png)
 2)With Current:
 ![compass2](https://user-images.githubusercontent.com/58810632/71679169-f1a57a00-2dac-11ea-9959-007f50f315a5.jpeg)
-![compass3](https://user-images.githubusercontent.com/58810632/71679202-0550e080-2dad-11ea-942a-fc88f415ada8.jpeg)
+![compass3](Screenshot_2020-01-06-10-56-47-15.png)
 
 e) As you can see there is no deflection caused by the flow of charges in the circuit, i.e, the induced magnetic field does interact with the PSLab compass.
 
