@@ -17,13 +17,13 @@ To find the acceleration of a body along different axises
 * Scroll down to the **acclorometer**
 ![Screenshot](/_static/img_accelorometer_1.jpg)
 
-* You'll see three graphs for x-axis, y-axis and z-axis
+* You will see three graphs for x-axis, y-axis and z-axis
 * Move your device along x-axis, y-axis and z-axis
 
 ### Observation
 
-* You'll see the acceleration of all the axis
+* You will see the acceleration of all the axis
 * Acceleration is represented in numerical form as well as in graph
 ![Screenshot](/_static/img_accelorometer_2.jpg)
 
-> If you move the device along differnet axis you'll see the change in acceleration in corresponding tab.
+> If you move the device along differnet axis you will see the change in acceleration in corresponding tab.
