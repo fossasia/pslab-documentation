@@ -1,10 +1,10 @@
-# Accelorometer
+# Accelerometer
 
 
-## What is an Accelorometer
+## What is an Accelerometer
 Accelerometer is used to measure acceleration of a body along the X, Y and Z axis.
 
-## Experiment for Accelorometer
+## Experiment for Accelerometer
 
 ### Learning Objectives
 To find the acceleration of a body along different axises 
@@ -14,7 +14,7 @@ To find the acceleration of a body along different axises
 
 ### Procedure
 * Open PSLab Android App
-* Scroll down to the **acclorometer**
+* Scroll down to the **accelerometer**
 ![Screenshot](/_static/img_accelorometer_1.jpg)
 
 * You will see three graphs for x-axis, y-axis and z-axis
