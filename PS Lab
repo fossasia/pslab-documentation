@@ -1,0 +1,26 @@
+AIM
+To test the PS Lab device called compass.
+
+MATERAILS REQIRED
+Compass, battery, copper wire, Android phone with a) compass sensor and b) PS Lab app installed
+https://tiger75home.files.wordpress.com/2020/01/battery.jpg?w=1024
+https://tiger75home.files.wordpress.com/2020/01/copper-wire.jpg?w=768
+https://tiger75home.files.wordpress.com/2020/01/ps-lab.jpg?w=387
+https://tiger75home.files.wordpress.com/2020/01/compass-1.jpg?w=768
+PROCEDURE
+1.Take a simple compass and wrap the wire around it.
+2.connect the wire to battery and switch ON the current.
+3.Same should be done with compass in PS Lab.
+OBSERVAION 
+ In compass
+There is a deflection when the current is passed.
+https://tiger75home.files.wordpress.com/2020/01/compass-conected.jpg?w=1024
+PS Lab
+There is no deflection when the current is passed near it.
+https://tiger75home.files.wordpress.com/2020/01/img-20200108-wa0005-1.jpg?w=576
+https://tiger75home.files.wordpress.com/2020/01/img-20200108-wa0006-1.jpg?w=576
+https://tiger75home.files.wordpress.com/2020/01/img-20200108-wa0007-1.jpg?w=576
+CONCLUSION
+This shows PS lab uses GPS to provide direction in terms of North, South, East and West. It further analyses the GPS and Sensor readings and then using this information aligns the compass needles according to our phone’s alignment and general position.
+
+
