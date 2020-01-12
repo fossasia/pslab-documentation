@@ -69,3 +69,27 @@ d) Screenshots provided below :
 ![7350E363-223C-489A-94FB-002F5109621E](https://user-images.githubusercontent.com/34577844/71761706-4f8faa00-2ef2-11ea-8f67-56b17e18e542.jpeg)
 
 e) As you can see there is no deflection caused by the flow of charges in the circuit, i.e, the induced magnetic field does interact with the PSLab compass.
+
+---------------
+## Experiment 3 
+
+* Requirements:
+Android phone with 
+a) Compass sensor 
+b) PSLab app installed,wire and a battery and a switch.
+
+* Step 1: 
+Connect the wire and battery with a switch and place it near the psLab Compass.
+* Step 2:
+Turn the on switch so that the current flowing through the wire . You will notice a deflection in the PsLab Compass.
+
+* Conclusion:
+PsLab will show deflection when current flow around it. 
+
+## Screenshots: 
+* With current  
+![compass1](https://i.ibb.co/FDKFk8m/Screenshot-2020-01-12-16-53-00-22.png)
+
+* Without Current 
+![compass2](https://i.ibb.co/p3CPPFy/Screenshot-2020-01-12-16-52-45-49.png)
+
