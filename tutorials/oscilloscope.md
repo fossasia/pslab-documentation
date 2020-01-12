@@ -37,6 +37,10 @@ In the desktop app you will see something like this:
 
 ![PSLab Desk Oscilloscope](../_static/desk_oscilloscope.jpg)
 
+In the mobile app you will see something like this:
+
+![PSLab Desk Oscilloscope](../_static/mobile-oscilloscope.jpg)
+
 1.  Options used to select the active channels and the range of
     measurement.
 2.  Timebase adjustments and trigger options.
