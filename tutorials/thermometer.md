@@ -3,4 +3,5 @@ Thermometer
 
 What is a Thermometer
 -----------------------
-Layout
+## Layout
+![screen](../_static/thermometer.png)

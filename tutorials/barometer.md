@@ -3,5 +3,5 @@ Barometer
 
 What is a Barometer
 -----------------------
-Layout
-
+## Layout
+![screen](../_static/barometer.png)
