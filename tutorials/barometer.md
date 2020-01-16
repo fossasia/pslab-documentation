@@ -27,5 +27,14 @@ Procedure :
 3) Now On the instruments page scroll down until you reach the Barometer instrument option.
 4) On tapping the Barometer instrument the barometer instrument opens and can be used.
 
-![inital setup](../_static/Barometer1.jpg)
-![inital setup](../_static/Barometer2.jpg)
+<table>
+         <tr>
+         <td><img src="/_static/Barometer1.jpg"></td>
+  </tr>
+  <tr>
+         <td><img src="/_static/Barometer2.jpg"></td>
+         </tr>
+ </table>
+
+
+
