@@ -69,3 +69,53 @@ d) Screenshots provided below :
 ![7350E363-223C-489A-94FB-002F5109621E](https://user-images.githubusercontent.com/34577844/71761706-4f8faa00-2ef2-11ea-8f67-56b17e18e542.jpeg)
 
 e) As you can see there is no deflection caused by the flow of charges in the circuit, i.e, the induced magnetic field does interact with the PSLab compass.
+
+## Experiment 3
+
+**Navigation with PSLab compass**
+
+### Objective
+
+To learn how to use a compass and a physical map _(although you can also use a photo of a map as a reference and rotate the map virtually)_ for navigating in an environment. 
+
+> Note : this experiment doesn't consider elements like [magnetic declination](https://en.wikipedia.org/wiki/Magnetic_declination) which are important for long-range navigation 😀 as even with 1-degree variance you move 100 ft away from your main direction in 1 mile
+
+#### We are going to go on a virtual journey of reaching from a camping point to another 🚌, so put your seatbelts on for no reason at all ;) 
+
+
+
+### Materials Required
+- An Android phone with pslab application installed.
+- A physical map
+- You should know your initial location and destination on the map
+- _And virtual legs to walk_ 😜 
+
+### Steps
+
+- **Initial setup** : Point your initial position and destination and draw a line using a scale. Then open the map and put the phone vertically on it.
+  ![inital setup](../_static/navigationexp_1.jpg)
+  _(now it should look something like this with you facing no particular way)_
+
+- **Orientation** : Now orient your entire setup to face north in direction with the help of the compass. The **N** in the compass should face about the top of your screen and in the bottom, the angle should be near to **0 degree**.
+  
+  ![Orient North](../_static/navigationexp_2.jpg)
+
+- **Knowing the proceeding angle** : After making sure you are oriented correctly, tilt your phone to the line that you made.
+  
+  ![Tilting to the Line](../_static/navigationexp_3.jpg)
+
+  In this example case, the angle formed in **270 degrees**. Note it down somewhere so that you don't have to open the map and check it again and again.
+
+- **Gathering more information** : With a map and a compass its still easy to lose efficiency when navigating from one place to another. There are a few ways to improve this.
+
+    - **Having a detailed map** : In this case, we used a simple plain map _(it's defenitly not a premade map_ 😉 _)_ , But in physical format, there are many detailed maps available.
+
+        ![DetailedMap](../_static/map.jpg)
+
+        *(Source of maps is : Open Street Map)*
+    - **Landmarks** : These are a very handy way of knowing whether or not you are on track. Try to find landmarks in your route on the map well before you reach there and try to look for them while traveling. _For example a distinguishable hill or ridge or building or place etc_ .
+
+### Result
+**Off you go for an adventure** 🌳🌲
+
+![Adventure](../_static/navigationAdventure.jpg)
