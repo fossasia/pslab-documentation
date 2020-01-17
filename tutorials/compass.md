@@ -17,8 +17,8 @@ To determine the direction of a place using PSLab app.
 
 <table>
      <tr>
-         <td><img src="/_static/img_compass_2.PNG"></td>
-         <td><img src="/_static/img_compass_1.PNG"></td>
+         <td><img src="/images/img_compass_2.PNG"></td>
+         <td><img src="/images/img_compass_1.PNG"></td>
      </tr>
  </table>
 
@@ -93,16 +93,16 @@ To learn how to use a compass and a physical map _(although you can also use a p
 ### Steps
 
 - **Initial setup** : Point your initial position and destination and draw a line using a scale. Then open the map and put the phone vertically on it.
-  ![inital setup](../_static/navigationexp_1.jpg)
+  ![inital setup](../images/navigationexp_1.jpg)
   _(now it should look something like this with you facing no particular way)_
 
 - **Orientation** : Now orient your entire setup to face north in direction with the help of the compass. The **N** in the compass should face about the top of your screen and in the bottom, the angle should be near to **0 degree**.
   
-  ![Orient North](../_static/navigationexp_2.jpg)
+  ![Orient North](../images/navigationexp_2.jpg)
 
 - **Knowing the proceeding angle** : After making sure you are oriented correctly, tilt your phone to the line that you made.
   
-  ![Tilting to the Line](../_static/navigationexp_3.jpg)
+  ![Tilting to the Line](../images/navigationexp_3.jpg)
 
   In this example case, the angle formed in **270 degrees**. Note it down somewhere so that you don't have to open the map and check it again and again.
 
@@ -110,7 +110,7 @@ To learn how to use a compass and a physical map _(although you can also use a p
 
     - **Having a detailed map** : In this case, we used a simple plain map _(it's defenitly not a premade map_ 😉 _)_ , But in physical format, there are many detailed maps available.
 
-        ![DetailedMap](../_static/map.jpg)
+        ![DetailedMap](../images/map.jpg)
 
         *(Source of maps is : Open Street Map)*
     - **Landmarks** : These are a very handy way of knowing whether or not you are on track. Try to find landmarks in your route on the map well before you reach there and try to look for them while traveling. _For example a distinguishable hill or ridge or building or place etc_ .
@@ -118,4 +118,4 @@ To learn how to use a compass and a physical map _(although you can also use a p
 ### Result
 **Off you go for an adventure** 🌳🌲
 
-![Adventure](../_static/navigationAdventure.jpg)
+![Adventure](../images/navigationAdventure.jpg)
