@@ -17,6 +17,13 @@ using the menu in the top right corner.
 
 <table>
     <tr>
+        <td><img src="/images/instrument_gyro_home.jpg"></td>
+        <td><img src="/images/instrument_gyro_active_2.jpg"></td>
+    </tr>
+</table>
+
+<table>
+    <tr>
         <td><img src="/images/instrument_gyro_active.png"></td>
         <td><img src="/images/instrument_gyro_config.png"></td>
     </tr>
