@@ -21,7 +21,7 @@ Frequently Asked Questions And Their Answers
 =============================================
 While many of us consider ourselves to know quite a lot about technology there is always something more to be learnt. Through this article I wish to clear all general and frequent questions about the functioning and uses of the PSLab Compass. Thus in case you want some of your doubts cleared and questions answered this is the right place.
 
-1) How does the digital compass ? 
+1) How does the digital compass work? 
 * **Ans :** Phones and other devices having digital compasses make use of magnetometers which change their resistance when they are placed in a magnetic field depending on their orientation.
 
 2) How to start the compass instrument on the PSLab Android App ?
