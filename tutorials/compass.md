@@ -17,8 +17,8 @@ To determine the direction of a place using PSLab app.
 
 <table>
      <tr>
-         <td><img src="/images/img_compass_2.PNG"></td>
-         <td><img src="/images/img_compass_1.PNG"></td>
+         <td><img src="../images/img_compass_2.PNG"></td>
+         <td><img src="../images/img_compass_1.PNG"></td>
      </tr>
  </table>
 

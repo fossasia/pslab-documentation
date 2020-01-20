@@ -1,0 +1,11 @@
+.md-tabs, .md-header{
+    background-color: #de1f26 !important;
+}
+
+.md-sidebar--secondary {
+        display: none;
+}
+
+.md-tabs {
+    display: none;
+}

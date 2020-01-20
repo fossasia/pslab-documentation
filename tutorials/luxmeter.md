@@ -15,7 +15,8 @@ To find the intensity of a light
 ### Procedure
 * Open PSLab Android App
 * Scroll down to the **Lux Meter**
-![Screenshot](/images/lux_image_1.jpg)
+
+![Screenshot](../images/lux_image_1.jpg)
 
 * You will see a graphical representation as well as numerical values of lux along with a meter 
 * Bring your device near different lights. For example, yellow light or white light etc. Sensors are usually near the front camera
@@ -24,4 +25,6 @@ To find the intensity of a light
 
 * You will see the difference in Lux of different colors of light
 * You can easily observe changes in graph and in numerical values
-![Screenshot](/images/lux_image_2.jpg)
+
+![Screenshot](../images/lux_image_2.jpg)
+

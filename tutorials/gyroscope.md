@@ -1,9 +1,4 @@
-# How to use the Gyroscope instrument
-## Table of Contents
-1. Introduction
-2. Layout
-3. Configuration
-4. How to Use it
+# Gyroscope 
 
 ## Introduction
 PS Lab contains the Gyroscope instrument which contains an easy way to measure rotational motion at a scientifcal level, 
@@ -17,15 +12,15 @@ using the menu in the top right corner.
 
 <table>
     <tr>
-        <td><img src="/images/instrument_gyro_home.jpg"></td>
-        <td><img src="/images/instrument_gyro_active_2.jpg"></td>
+        <td><img src="../images/instrument_gyro_home.jpg"></td>
+        <td><img src="../images/instrument_gyro_active_2.jpg"></td>
     </tr>
 </table>
 
 <table>
     <tr>
-        <td><img src="/images/instrument_gyro_active.png"></td>
-        <td><img src="/images/instrument_gyro_config.png"></td>
+        <td><img src="../images/instrument_gyro_active.png"></td>
+        <td><img src="../images/instrument_gyro_config.png"></td>
     </tr>
 </table>
 
