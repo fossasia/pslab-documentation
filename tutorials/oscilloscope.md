@@ -35,7 +35,7 @@ How To Use It
 
 In the desktop app you will see something like this:
 
-![PSLab Desk Oscilloscope](../_static/desk_oscilloscope.jpg)
+![PSLab Desk Oscilloscope](../images/desk_oscilloscope.jpg)
 
 1.  Options used to select the active channels and the range of
     measurement.
