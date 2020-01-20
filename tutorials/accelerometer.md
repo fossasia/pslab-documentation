@@ -21,7 +21,7 @@ To find the acceleration of a body along different axises
 <table>
   <tr>
     <td><img src="/images/img_accelerometer_3.jpg"></td>
-    <td><img src="/images/img_accelorometer_4.jpg"></td>
+    <td><img src="/images/img_accelerometer_4.jpg"></td>
   </tr>
 </table>
 * Move your device along x-axis, y-axis and z-axis
