@@ -9,17 +9,13 @@ Pocket Science Labs Documentation
 .. toctree::
    :maxdepth: 2
    :caption: Introduction to PSLab
-
+   
    introduction
-   hardware
-   android
-   desktop
-   library
 
 .. toctree::
    :maxdepth: 2
    :caption: Science Experiment Tutorials
-
+   
    tutorials/oscilloscope
    tutorials/multimeter
    tutorials/logicanalyzer
@@ -35,17 +31,3 @@ Pocket Science Labs Documentation
    tutorials/roboticarm
    tutorials/gassensor
    tutorials/dustsensor
- 
-.. toctree::
-   :maxdepth: 2
-   :caption: Advanced PSLab
-
-   advanced
-   programming
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Collaborate!
-   
-   collaborate
-   template
