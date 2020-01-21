@@ -10,17 +10,9 @@ Material Required:
 * [PSLab Android App](https://play.google.com/store/apps/details?id=io.pslab&hl=en_US)
 
 Procedure:
-* Navigate to The PSLab Android App on your device.
-* Click on the App to turn it on.
-* Now On the instruments page scroll down until you reach the Thermometer instrument option.
-<table>
-  <tr>
-    <td><img src="images/img_thermometer_1.jpg"></td>
-  </tr>
-</table>
-* On tapping the Thermometer instrument the barometer instrument opens and can be used.
-<table>
-  <tr>
-    <td><img src="images/img_thermometer_2.jpg"></td>
-  </tr>
-</table>
+1. Navigate to The PSLab Android App on your device.
+2. Click on the App to turn it on.
+3. Now On the instruments page scroll down until you reach the Thermometer instrument option.
+![Screenshot](../images/img_thermometer_1.jpg)
+4. On tapping the Thermometer instrument the barometer instrument opens and can be used.
+![Screenshot](../images/img_thermometer_2.jpg)
