@@ -1,14 +1,11 @@
-Oscilloscope
-============
+# Oscilloscope
 
-What Is An Oscilloscope
------------------------
+## What Is An Oscilloscope
 
 An instrument used to measure voltage changes over a period of time in
 real time.
 
-How To Use It
--------------
+## How To Use It
 
 1.  Connect SI1 and SI2 pins on PSLab board to CH1 and CH2 pins
     respectively for Analog mode or connect SQ1,SQ2,SQ3 pins to CH1,
@@ -45,5 +42,37 @@ In the desktop app you will see something like this:
 5.  Graph area.
 6.  Record button.
 
-Experiment: Measure Sound
--------------------------
+____________
+## Experiment: Measure Sound
+
+### Goal of the experiment: To measure the intensity of sound produced.
+
+### Materials required
+* Android Phone
+* [PSLab Android App](https://play.google.com/store/apps/details?id=io.pslab&hl=en_US)
+
+### Procedure
+* Open PSLab Android app 
+
+<img src="/images/img_compass_2.PNG" width="540" height="960">
+
+* Select Oscilloscope option
+* On opening the app,you will see various options:
+
+1.Channel Parameters
+2.Timebase and Trigger
+3.Data Analysis
+4.XY Plot
+
+* Select **Channel Parameter** and select the **In-Built MIC** option.
+
+<img src="/images/oscilloscope_active.png" width="960" height="540">
+
+* Now, go to **Data Analysis** option and select **Fourier Transforms**.
+* After doing all the above steps, try recording a sound using the in built record option.
+
+### Observations
+On observing the recorded sound from the logs, it is noticed that there is a large displacement in the graph for a loud shrill sound and small displacement for a faint sound of low pitch.
+
+### Conclusion
+From the above experiment, I conclude that the PSLab app Oscilloscope can be used to measure the intensity of sound.
