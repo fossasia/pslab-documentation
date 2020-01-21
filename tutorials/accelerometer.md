@@ -17,7 +17,7 @@ To find the acceleration of a body along different axises
 * Scroll down to the **accelerometer**
 <table>
   <tr>
-    <td><img src="/images/img_accelerometer_1.jpg"></td>
+    <td><img src="/images/img_accelorometer_1.jpg"></td>
   </tr>
 </table>
 
@@ -37,7 +37,7 @@ To find the acceleration of a body along different axises
 
 <table>
   <tr>
-    <td><img src="/images/img_accelerometer_1.jpg"></td>
+    <td><img src="/images/img_accelorometer_2.jpg"></td>
   </tr>
 </table>
 
