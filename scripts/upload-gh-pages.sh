@@ -15,6 +15,8 @@ cp -r ../_build/html/* .
 
 touch .nojekyll
 
+echo "docs.pslab.io" > CNAME
+
 git checkout --orphan temporary
 
 git add --all .
