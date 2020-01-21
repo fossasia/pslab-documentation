@@ -7,6 +7,13 @@ What Is An Oscilloscope
 An instrument used to measure voltage changes over a period of time in
 real time.
 
+<table>
+    <tr> 
+        <td><img src="/images/oscilloscope_active.png"></td>
+        <td><img src="/images/oscilloscope_fourier.png"></td>
+    </tr>
+</table>
+
 How To Use It
 -------------
 
