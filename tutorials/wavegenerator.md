@@ -37,8 +37,8 @@ How to use the Wave Generator
 
 <table>
      <tr>
-         <td><img src="/images/Wave-Genarator-Analog-wave.jpg"/></td>
-         <td><img src="/images/Wave-Genarator-Digital-wave.jpg"/></td>
+         <td><img src="../images/Wave-Genarator-Analog-wave.jpg"/></td>
+         <td><img src="../images/Wave-Genarator-Digital-wave.jpg"/></td>
      </tr>
  </table>
 
