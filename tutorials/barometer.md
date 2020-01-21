@@ -27,10 +27,10 @@ Procedure :
 
 <table>
          <tr>
-         <td><img src="/_static/Barometer1.jpg"></td>
+         <td><img src="/images/barometer_1.jpg"></td>
   </tr>
   <tr>
-         <td><img src="/_static/Barometer2.jpg"></td>
+         <td><img src="/images/barometer_2.jpg"></td>
          </tr>
  </table>
 
