@@ -16,6 +16,6 @@ Procedure:
 
 ![Screenshot](../images/img_thermometer_1.jpg)
 
-4. On tapping the Thermometer instrument the barometer instrument opens and can be used.
+4. On tapping the Thermometer instrument the thermometer instrument opens and can be used.
 
 ![Screenshot](../images/img_thermometer_2.jpg)
