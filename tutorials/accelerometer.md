@@ -15,10 +15,19 @@ To find the acceleration of a body along different axises
 ### Procedure
 * Open PSLab Android App
 * Scroll down to the **accelerometer**
+<table>
+  <tr>
+    <td><img src="/images/img_accelerometer_1.jpg"></td>
+  </tr>
+</table>
 
-![Screenshot](../images/img_accelorometer_1.jpg)
-
-* You will see three graphs for x-axis, y-axis and z-axis
+* You will see three graphs for x-axis, y-axis and z-axis and there is also the option to configure the Accelerometer using the menu in the top right corner.
+<table>
+  <tr>
+    <td><img src="/images/img_accelerometer_3.jpg"></td>
+    <td><img src="/images/img_accelerometer_4.jpg"></td>
+  </tr>
+</table>
 * Move your device along x-axis, y-axis and z-axis
 
 ### Observation
@@ -26,7 +35,11 @@ To find the acceleration of a body along different axises
 * You will see the acceleration of all the axis
 * Acceleration is represented in numerical form as well as in graph
 
-![Screenshot](../images/img_accelorometer_2.jpg)
+<table>
+  <tr>
+    <td><img src="/images/img_accelerometer_2.jpg"></td>
+  </tr>
+</table>
 
 
 > If you move the device along differnet axis you will see the change in acceleration in corresponding tab.
