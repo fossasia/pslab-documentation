@@ -1,44 +1,45 @@
-# Desktop Application
+PSLab Desktop Application
+=========================
 
-Download the Stable version for various platforms here https://github.com/fossasia/pslab-desktop/tree/install 🌐
-
-## How to install the Desktop Application (latest Development version)
-
-- Windows  _(currently there is no official distribution for latest dev pslab desktop application in order to run the application you need to do the following things)_:
+_Currently there is no official distribution for latest development build of the
+PSLab desktop application. To run the application, you need to build it._
     
-    1. Go to official Repository at https://github.com/fossasia/pslab-desktop 
-    2. Download as a zip or clone in the next step
-        1. Click on clone the download it as zip
-        2.  Extract the zip file
-    3. Open terminal and type 
-        ```
-        git clone https://github.com/fossasia/pslab-desktop.git
-        ```
-    4. Go inside the project folder
-    5. Open **Command Prompt** or **Powershell**
-    6. Write the following commands chronologically _(Make sure you have node.js installed if not go [here](https://nodejs.org/))_
+## Building from source
+
+_Make sure you have [Node.js](https://nodejs.org/) and `npm` installed._
+
+1. Go to the [official repository](https://github.com/fossasia/pslab-desktop)
+2. Download as a zip file or clone the repository
+    - ZIP file: Click on the "Code" button, then "Download ZIP", and extract the
+      file to a directory of your preference
+    - Git clone: Open a terminal and run
+      ```
+      git clone https://github.com/fossasia/pslab-desktop.git
+      ```
+3. Open a terminal emulator, or on Windows, either **Command Prompt** or
+   **Powershell**, and change to the project root directory.
+4. Run the following commands:
     
-        ```
-        npm install
-        ```
-        _Wait for it to finish_
-        ```
-        npm start
-        ```
+```
+npm install
+npm run react-build
+npm run pack
+```
 
-    7. PSLab desktop should open in front of you 😇
-- Mac
-    1. The Procedure should be the same but instead of `5. Open Command Prompt or Powershell` Open the terminal
-- Linux _(for Linux installation, go to https://github.com/fossasia/pslab-desktop. There you can find the linux installation documention in detail)_
-## How to use the Desktop App
+5. PSLab desktop should now be built. 😇
 
+Depending on your operating system, the executable will be in a directory under
+`dist/`. To run it:
 
-- To use any feature of the PSLab Desktop application first follow
-    these 2 steps:
-    1.  Connect PSLab board with your Desktop using USB cable
-    2.  Open [PSLab Desktop application](https://github.com/fossasia/pslab-desktop)
+- Linux: `./dist/linux-unpacked/pslab`
+- macOS: `open dist/mac/PSLab.app`
+- Window: `dist/win-unpacked/pslab.exe` -- TODO: check this
 
-You will be presented with a home screen like this.
+## Using the app
+
+First *connect the PSLab board and your PC with a USB cable*. Then open the app.
+
+You will be presented with a home screen like this:
 
 ![PSLab Desk Home screen](../images/desk_home_screen.jpg)
 
