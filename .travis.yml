@@ -4,7 +4,8 @@ install:
 - pip install Sphinx
 - pip install git+https://github.com/bashtage/sphinx-material
 - pip install m2rr
-script: skip
+script:
+- make html
 deploy:
 - provider: script
   skip_cleanup: true
