@@ -118,4 +118,4 @@ To learn how to use a compass and a physical map _(although you can also use a p
 ### Result
 **Off you go for an adventure** 🌳🌲
 
-![Adventure](../images/navigation_adventure.jpg)
+![Adventure](../images/navigationAdventure.jpg)
