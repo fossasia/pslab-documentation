@@ -1,4 +1,4 @@
-Template for expermients
+Template for experiments
 ========================
 
 ## <Title / Question of Experiment>
@@ -30,24 +30,32 @@ Oscilloscope, Multimeter, Logic Analyzer
 
 #### Circuit Diagram
 
-![Circuit Diagram](http://via.placeholder.com/1024x512?text=Circuit+Diagram "Circuit Diagram")
+![Circuit Diagram](http://via.placeholder.com/1024x512?text=Circuit+Diagram)
 
 #### Breadboard Diagram
 
-![Breadboard Diagram](http://via.placeholder.com/1024x512?text=Breadboard+Diagram "Breadboard Diagram")
+![Breadboard Diagram](http://via.placeholder.com/1024x512?text=Breadboard+Diagram)
 
 ### Step-By-Step Tutorial
 
+| Step  | Instruction                        |
+| ----- | ---------------------------------- |
+| 1     | Ut convallis nec libero ut tempor. |
+| 2     | Ut convallis nec libero ut tempor. |
+| 3     | Ut convallis nec libero ut tempor. |
 
-| Step  | Instruction | Picture Instruction |
-|-------|-------------|---------------------|
-| 1 | Ut convallis nec libero ut tempor. | ![Step X](http://via.placeholder.com/256?text=Step+3) |
-| 2 | Ut convallis nec libero ut tempor. | ![Step X](http://via.placeholder.com/256?text=Step+3) |
-| 3 | Ut convallis nec libero ut tempor. | ![Step X](http://via.placeholder.com/256?text=Step+3) |
 
 ### Expected Result
 
-[|Expected\_Result.gif|](#id4) ### What to observe - Curabitur eu felis interdum metus finibus auctor. - Quisque et nunc nec ligula dictum porttitor vitae ut magna. - Duis hendrerit neque quis sollicitudin pellentesque. - Maecenas in erat ac justo sollicitudin volutpat. - Sed lacinia ipsum eu quam dignissim, a tristique neque molestie.
+![Expected Result](http://via.placeholder.com/1024x512?text=Expected+Result)
+
+### What to observe
+
+- Curabitur eu felis interdum metus finibus auctor.
+- Quisque et nunc nec ligula dictum porttitor vitae ut magna.
+- Duis hendrerit neque quis sollicitudin pellentesque.
+- Maecenas in erat ac justo sollicitudin volutpat.
+- Sed lacinia ipsum eu quam dignissim, a tristique neque molestie.
 
 ### Videos
 
@@ -57,37 +65,43 @@ PSLab - [http://pslab.io](http://pslab.io)
 
 #### Common Problems
 
-*   [Suspendisse cursus sem vitae risus mollis laoreet.](#troubleshoot_1)
-*   [Morbi a quam et ex pretium lobortis.](#troubleshoot_2)
-*   [Mauris lacinia neque nec interdum feugiat.](#troubleshoot_3)
+* [Suspendisse cursus sem vitae risus mollis laoreet.](#troubleshoot_1)
+* [Morbi a quam et ex pretium lobortis.](#troubleshoot_2)
+* [Mauris lacinia neque nec interdum feugiat.](#troubleshoot_3)
 
 ##### Suspendisse cursus sem vitae risus mollis laoreet.
 
-1.  Nulla condimentum mi eu ullamcorper lobortis.
-2.  In nec urna tristique, efficitur justo non, pellentesque velit.
-3.  Aenean sit amet odio volutpat velit pharetra elementum non ut tortor.
-4.  Duis a velit a leo vestibulum faucibus.
-5.  Morbi quis nibh at nibh pharetra ultricies sagittis vitae libero. ###### [Back to troubleshoot](#troubleshoot)
+1. Nulla condimentum mi eu ullamcorper lobortis.
+2. In nec urna tristique, efficitur justo non, pellentesque velit.
+3. Aenean sit amet odio volutpat velit pharetra elementum non ut tortor.
+4. Duis a velit a leo vestibulum faucibus.
+5. Morbi quis nibh at nibh pharetra ultricies sagittis vitae libero.
+
+###### [Back to troubleshoot](#troubleshoot)
 
 ##### Morbi a quam et ex pretium lobortis.
 
-1.  Nulla condimentum mi eu ullamcorper lobortis.
-2.  In nec urna tristique, efficitur justo non, pellentesque velit.
-3.  Aenean sit amet odio volutpat velit pharetra elementum non ut tortor.
-4.  Duis a velit a leo vestibulum faucibus.
-5.  Morbi quis nibh at nibh pharetra ultricies sagittis vitae libero. ###### [Back to troubleshoot](#troubleshoot)
+1. Nulla condimentum mi eu ullamcorper lobortis.
+2. In nec urna tristique, efficitur justo non, pellentesque velit.
+3. Aenean sit amet odio volutpat velit pharetra elementum non ut tortor.
+4. Duis a velit a leo vestibulum faucibus.
+5. Morbi quis nibh at nibh pharetra ultricies sagittis vitae libero.
+
+###### [Back to troubleshoot](#troubleshoot)
 
 ##### Mauris lacinia neque nec interdum feugiat.
 
-1.  Nulla condimentum mi eu ullamcorper lobortis.
-2.  In nec urna tristique, efficitur justo non, pellentesque velit.
-3.  Aenean sit amet odio volutpat velit pharetra elementum non ut tortor.
-4.  Duis a velit a leo vestibulum faucibus.
-5.  Morbi quis nibh at nibh pharetra ultricies sagittis vitae libero. ###### [Back to troubleshoot](#troubleshoot)
+1. Nulla condimentum mi eu ullamcorper lobortis.
+2. In nec urna tristique, efficitur justo non, pellentesque velit.
+3. Aenean sit amet odio volutpat velit pharetra elementum non ut tortor.
+4. Duis a velit a leo vestibulum faucibus.
+5. Morbi quis nibh at nibh pharetra ultricies sagittis vitae libero.
+
+###### [Back to troubleshoot](#troubleshoot)
 
 ### Integrated Project Ideas
 
-*   Create Flying bird [link](https://google.co.in)
+* Create Flying bird [link](https://google.co.in)
 
 ### References
 
