@@ -19,7 +19,7 @@ import sphinx_material
 
 project = 'PSLab'
 html_title = 'Home'
-copyright = '2019, FOSSASIA'
+copyright = '2019-2020, FOSSASIA'
 author = 'FOSSASIA'
 
 master_doc = 'index'
