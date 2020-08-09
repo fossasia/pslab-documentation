@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e # exit on error to prevent deployment of broken builds
+
 git config --global user.name "Travis CI"
 git config --global user.email "noreply+travis@fossasia.org"
 
