@@ -7,7 +7,7 @@ Introduction to Waves
 A wave is a physical phenomenon characterized by its frequency, wavelength, and amplitude.
 In general, waves transfer energy from one location to another, in which case they have a velocity.
 
-![wave-amplitude-length](../images/wave_amplitude_length.png)
+![wave-amplitude-length](../images/wave-amplitude-length.png)
 
 Standing waves may also occur; these have no net velocity and involve no net transfer of energy. They have frequency,
 wavelength and amplitude.
@@ -37,8 +37,8 @@ How to use the Wave Generator
 
 <table>
      <tr>
-         <td><img src="../images/wave_genarator_analog_wave.jpg"/></td>
-         <td><img src="../images/wave_genarator_digital_wave.jpg"/></td>
+         <td><img src="../images/Wave-Genarator-Analog-wave.jpg"/></td>
+         <td><img src="../images/Wave-Genarator-Digital-wave.jpg"/></td>
      </tr>
  </table>
 
