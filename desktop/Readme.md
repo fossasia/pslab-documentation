@@ -40,6 +40,6 @@ Download the Stable version for various platforms here https://github.com/fossas
 
 You will be presented with a home screen like this.
 
-![PSLab Desk Home screen](images/desk_home_screen.jpg)
+![PSLab Desk Home screen](../images/desk_home_screen.jpg)
 
 Click on the instrument you would like to use.
