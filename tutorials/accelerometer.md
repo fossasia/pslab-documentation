@@ -18,7 +18,13 @@ To find the acceleration of a body along different axises
 
 ![Screenshot](../images/img_accelorometer_1.jpg)
 
-* You will see three graphs for x-axis, y-axis and z-axis
+* You will see three graphs for x-axis, y-axis and z-axis and there is also the option to configure the Accelerometer using the menu in the top right corner.
+<table>
+  <tr>
+    <td><img src="/images/img_accelerometer_3.jpg"></td>
+    <td><img src="/images/img_accelerometer_4.jpg"></td>
+  </tr>
+</table>
 * Move your device along x-axis, y-axis and z-axis
 
 ### Observation
