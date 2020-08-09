@@ -1,0 +1,613 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
+
+    <style>
+      body,
+      input {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: "Roboto Mono", "Courier New", Courier, monospace
+      }
+    </style>
+  
+
+  <link rel="stylesheet" href="../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../_static/javascripts/modernizr.js"></script>
+  
+  
+  
+    <title>Compass &#8212; Home</title>
+    <link rel="stylesheet" href="../_static/material.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/styles.css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Gyroscope" href="gyroscope.html" />
+    <link rel="prev" title="Barometer" href="barometer.html" />
+  
+   
+
+  </head>
+  <body dir=ltr
+        data-md-color-primary=red data-md-color-accent=red>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#tutorials/compass" tabindex="1" class="md-skip"> Skip to content </a>
+  <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../index.html" title="Home"
+           class="md-header-nav__button md-logo">
+          
+            &nbsp;
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <span class="md-header-nav__topic">Pocket Science Labs Documentation</span>
+          <span class="md-header-nav__topic"> Compass </span>
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" action="../search.html" method="GET" name="search">
+      <input type="text" class="md-search__input" name="q" placeholder="Search"
+             autocapitalize="off" autocomplete="off" spellcheck="false"
+             data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      
+      
+  
+  <script src="../_static/javascripts/version_dropdown.js"></script>
+  <script>
+    var json_loc = "../"versions.json"",
+        target_loc = "../../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+  </script>
+  
+
+    </div>
+  </nav>
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../index.html" class="md-tabs__link">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../index.html" title="Home" class="md-nav__button md-logo">
+      
+        <img src="../_static/" alt=" logo" width="48" height="48">
+      
+    </a>
+    <a href="../index.html"
+       title="Home">Pocket Science Labs Documentation</a>
+  </label>
+  
+
+  
+  <ul class="md-nav__list">
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Introduction to PSLab</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="../introduction.html" class="md-nav__link">Introduction</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+      <span class="md-nav__link caption"><span class="caption-text">Science Experiment Tutorials</span></span>
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="oscilloscope.html" class="md-nav__link">Oscilloscope</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="multimeter.html" class="md-nav__link">Multimeter</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="logicanalyzer.html" class="md-nav__link">Logic Analyzer</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="sensors.html" class="md-nav__link">Sensors</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="wavegenerator.html" class="md-nav__link">Wave Generator</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="powersource.html" class="md-nav__link">Power Source</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="luxmeter.html" class="md-nav__link">Lux Meter</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="accelerometer.html" class="md-nav__link">Accelerometer</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="barometer.html" class="md-nav__link">Barometer</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <label class="md-nav__link md-nav__link--active" for="__toc"> Compass </label>
+    
+      <a href="#" class="md-nav__link md-nav__link--active">Compass</a>
+      
+        
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#tutorials-compass--page-root" class="md-nav__link">Compass</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#what-is-a-compass" class="md-nav__link">What is a Compass?</a>
+        </li>
+        <li class="md-nav__item"><a href="#experiment-for-pslab-compass" class="md-nav__link">EXPERIMENT FOR PSLAB COMPASS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#goal-of-the-experiment" class="md-nav__link">Goal of the experiment</a>
+        </li>
+        <li class="md-nav__item"><a href="#materials-required" class="md-nav__link">Materials required</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#procedure" class="md-nav__link">Procedure</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#observation" class="md-nav__link">Observation</a>
+        </li>
+        <li class="md-nav__item"><a href="#conclusion" class="md-nav__link">Conclusion</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#experiment-2" class="md-nav__link">EXPERIMENT 2</a>
+        </li>
+        <li class="md-nav__item"><a href="#experiment-3" class="md-nav__link">Experiment 3</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#objective" class="md-nav__link">Objective</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#we-are-going-to-go-on-a-virtual-journey-of-reaching-from-a-camping-point-to-another-so-put-your-seatbelts-on-for-no-reason-at-all" class="md-nav__link">We are going to go on a virtual journey of reaching from a camping point to another 🚌, so put your seatbelts on for no reason at all ;)</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#id1" class="md-nav__link">Materials Required</a>
+        </li>
+        <li class="md-nav__item"><a href="#steps" class="md-nav__link">Steps</a>
+        </li>
+        <li class="md-nav__item"><a href="#result" class="md-nav__link">Result</a>
+        </li></ul>
+            </nav>
+        </li></ul>
+            </nav>
+        </li>
+    
+<li class="md-nav__item"><a class="md-nav__extra_link" href="../_sources/tutorials/compass.md.txt">Show Source</a> </li>
+
+  </ul>
+</nav>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="gyroscope.html" class="md-nav__link">Gyroscope</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="thermometer.html" class="md-nav__link">Thermometer</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="roboticarm.html" class="md-nav__link">Robotic Arm Servos</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="gassensor.html" class="md-nav__link">Gas Sensor</a>
+      
+    
+    </li>
+    <li class="md-nav__item">
+    
+    
+      <a href="dustsensor.html" class="md-nav__link">Dust Sensor</a>
+      
+    
+    </li>
+  </ul>
+  
+
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#tutorials-compass--page-root" class="md-nav__link">Compass</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#what-is-a-compass" class="md-nav__link">What is a Compass?</a>
+        </li>
+        <li class="md-nav__item"><a href="#experiment-for-pslab-compass" class="md-nav__link">EXPERIMENT FOR PSLAB COMPASS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#goal-of-the-experiment" class="md-nav__link">Goal of the experiment</a>
+        </li>
+        <li class="md-nav__item"><a href="#materials-required" class="md-nav__link">Materials required</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#procedure" class="md-nav__link">Procedure</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#observation" class="md-nav__link">Observation</a>
+        </li>
+        <li class="md-nav__item"><a href="#conclusion" class="md-nav__link">Conclusion</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#experiment-2" class="md-nav__link">EXPERIMENT 2</a>
+        </li>
+        <li class="md-nav__item"><a href="#experiment-3" class="md-nav__link">Experiment 3</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#objective" class="md-nav__link">Objective</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#we-are-going-to-go-on-a-virtual-journey-of-reaching-from-a-camping-point-to-another-so-put-your-seatbelts-on-for-no-reason-at-all" class="md-nav__link">We are going to go on a virtual journey of reaching from a camping point to another 🚌, so put your seatbelts on for no reason at all ;)</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#id1" class="md-nav__link">Materials Required</a>
+        </li>
+        <li class="md-nav__item"><a href="#steps" class="md-nav__link">Steps</a>
+        </li>
+        <li class="md-nav__item"><a href="#result" class="md-nav__link">Result</a>
+        </li></ul>
+            </nav>
+        </li></ul>
+            </nav>
+        </li>
+    
+<li class="md-nav__item"><a class="md-nav__extra_link" href="../_sources/tutorials/compass.md.txt">Show Source</a> </li>
+
+<li id="searchbox" class="md-nav__item"></li>
+
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  
+<h1 id="tutorials-compass--page-root">Compass<a class="headerlink" href="#tutorials-compass--page-root" title="Permalink to this headline">¶</a></h1>
+
+<h2 id="what-is-a-compass">What is a Compass?<a class="headerlink" href="#what-is-a-compass" title="Permalink to this headline">¶</a></h2>
+<p>A compass is an instrument used for navigation and orientation that shows direction relative to the geographic cardinal directions. Usually, a diagram called a compass rose shows the directions north, south, east, and west on the compass face as abbreviated initials.</p>
+
+<hr class="docutils"/>
+
+<h2 id="experiment-for-pslab-compass">EXPERIMENT FOR PSLAB COMPASS<a class="headerlink" href="#experiment-for-pslab-compass" title="Permalink to this headline">¶</a></h2>
+
+<h3 id="goal-of-the-experiment">Goal of the experiment<a class="headerlink" href="#goal-of-the-experiment" title="Permalink to this headline">¶</a></h3>
+<p>To determine the direction of a place using PSLab app.</p>
+
+
+<h3 id="materials-required">Materials required<a class="headerlink" href="#materials-required" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Android Phone</p></li>
+<li><p><a class="reference external" href="https://play.google.com/store/apps/details?id=io.pslab&amp;hl=en_US">PSLab Android App</a></p></li>
+</ul>
+
+<h4 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Open PSLab Android app</p></li>
+</ul>
+<table>
+<tr>
+<td><img src="../images/img_compass_2.PNG"/></td>
+<td><img src="../images/img_compass_1.PNG"/></td>
+</tr>
+</table><ul class="simple">
+<li><p>Select the compass option</p></li>
+<li><p>Once the compass opens start rotating the phone 360 degrees in order to calibrate the compass.</p></li>
+<li><p>Now, rotate your phone in any cardinal direction.</p></li>
+</ul>
+<a class="reference external image-reference" href="https://user-images.githubusercontent.com/34577844/71761229-9380b000-2eee-11ea-9382-95fb7081e596.jpeg"><img alt="A5ECC2EC-7D07-47C7-8A5C-764265A6B9DA" src="https://user-images.githubusercontent.com/34577844/71761229-9380b000-2eee-11ea-9382-95fb7081e596.jpeg"/></a>
+
+
+
+<h3 id="observation">Observation<a class="headerlink" href="#observation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>On rotating the phone from one direction to another, the Compass will start rotating denoting the particular direction (N,S,E &amp; W or Subcardinal directions).</p></li>
+<li><p>Alternatively , you may also select the  axes parallel to the ground like <strong>X axis , Y axis or Z axis</strong>.</p></li>
+<li><p>You may even record the interaction using the in-built record option present in the top right corner of the Compass.</p></li>
+<li><p>To view the recorded interactions, you just have to go to the <strong>Logged Data</strong> option present in the menu bar.</p></li>
+</ul>
+<a class="reference external image-reference" href="https://user-images.githubusercontent.com/34577844/71761230-94194680-2eee-11ea-91b2-aa45b50174b4.jpeg"><img alt="D99F2A19-B315-4AE8-B081-3650CF4BC576" src="https://user-images.githubusercontent.com/34577844/71761230-94194680-2eee-11ea-91b2-aa45b50174b4.jpeg"/></a>
+
+
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h3>
+<p>I hereby conclude that PSLab android app can be used to determine the direction of a place.</p>
+
+
+<hr class="docutils"/>
+
+<h2 id="experiment-2">EXPERIMENT 2<a class="headerlink" href="#experiment-2" title="Permalink to this headline">¶</a></h2>
+<ol class="loweralpha simple">
+<li><p>I proposed an experiment to find how mobile compasses work without actually using magnets within the phone.</p></li>
+</ol>
+<p>b) Observations :
+1) For the given experiment we need a coiled wire connected to a battery. In case of a battery turn the switch on so that current starts flowing through the circuit.
+2) Now on placing the PSLab compass near the coiled wire we notice no deflection in the compass. But on taking a normal magnetic compass we do see deflection.
+3) As we shift the normal magnetic compass around the coiled wire the compass deflects in a different manner. But this shows no effect on the PSLab compass.
+4) Thus through this experiment it shows that flowing charges (current) do produce a magnetic field which do interact with the magnet inside a normal but that show no effect on the PSLab compass.</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Conclusion :</p></li>
+</ol>
+<ol class="arabic simple" start="5">
+<li><p>This thus shows that the PSLab compass does not use magnets but in turn uses GPS and other sensors (basically digital means) to provide direction in terms of North,South,East and West. It further analyses the GPS and Sensor readings and then using this information aligns the compass needles according to our phones alignment and general position.</p></li>
+<li><p>This is also one of the better (and probably only way) ways to integrate a compass in a digital device as an actual compass may hinder with the phone other electrical components causing them to malfunction.</p></li>
+</ol>
+<ol class="loweralpha simple" start="4">
+<li><p>Screenshots provided below :</p></li>
+</ol>
+<p>1)Without Current:</p>
+<a class="reference external image-reference" href="https://user-images.githubusercontent.com/34577844/71761582-f32c8a80-2ef1-11ea-9ec5-b4c133fe7ec7.jpeg"><img alt="FB64A9DE-7C8B-4A9C-B449-6F754BEE0198" src="https://user-images.githubusercontent.com/34577844/71761582-f32c8a80-2ef1-11ea-9ec5-b4c133fe7ec7.jpeg"/></a>
+<p>2)With Current:</p>
+<a class="reference external image-reference" href="https://user-images.githubusercontent.com/34577844/71761703-4f8faa00-2ef2-11ea-9c48-68554aeeb68e.jpeg"><img alt="33DB1E33-3207-4AAC-8FC3-060F742C5F9B" src="https://user-images.githubusercontent.com/34577844/71761703-4f8faa00-2ef2-11ea-9c48-68554aeeb68e.jpeg"/></a>
+<a class="reference external image-reference" href="https://user-images.githubusercontent.com/34577844/71761706-4f8faa00-2ef2-11ea-8f67-56b17e18e542.jpeg"><img alt="7350E363-223C-489A-94FB-002F5109621E" src="https://user-images.githubusercontent.com/34577844/71761706-4f8faa00-2ef2-11ea-8f67-56b17e18e542.jpeg"/></a>
+<ol class="loweralpha simple" start="5">
+<li><p>As you can see there is no deflection caused by the flow of charges in the circuit, i.e, the induced magnetic field does interact with the PSLab compass.</p></li>
+</ol>
+
+
+<h2 id="experiment-3">Experiment 3<a class="headerlink" href="#experiment-3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Navigation with PSLab compass</strong></p>
+
+<h3 id="objective">Objective<a class="headerlink" href="#objective" title="Permalink to this headline">¶</a></h3>
+<p>To learn how to use a compass and a physical map <em>(although you can also use a photo of a map as a reference and rotate the map virtually)</em> for navigating in an environment.</p>
+<blockquote>
+<div><p>Note : this experiment doesn’t consider elements like <a class="reference external" href="https://en.wikipedia.org/wiki/Magnetic_declination">magnetic declination</a> which are important for long-range navigation 😀 as even with 1-degree variance you move 100 ft away from your main direction in 1 mile</p>
+</div></blockquote>
+
+<h4 id="we-are-going-to-go-on-a-virtual-journey-of-reaching-from-a-camping-point-to-another-so-put-your-seatbelts-on-for-no-reason-at-all">We are going to go on a virtual journey of reaching from a camping point to another 🚌, so put your seatbelts on for no reason at all ;)<a class="headerlink" href="#we-are-going-to-go-on-a-virtual-journey-of-reaching-from-a-camping-point-to-another-so-put-your-seatbelts-on-for-no-reason-at-all" title="Permalink to this headline">¶</a></h4>
+
+
+
+<h3 id="id1">Materials Required<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>An Android phone with pslab application installed.</p></li>
+<li><p>A physical map</p></li>
+<li><p>You should know your initial location and destination on the map</p></li>
+<li><p><em>And virtual legs to walk</em> 😜</p></li>
+</ul>
+
+
+<h3 id="steps">Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p><strong>Initial setup</strong> : Point your initial position and destination and draw a line using a scale. Then open the map and put the phone vertically on it.</p>
+<a class="reference external image-reference" href="../images/navigationexp_1.jpg"><img alt="inital setup" src="../_images/navigationexp_1.jpg"/></a>
+<p><em>(now it should look something like this with you facing no particular way)</em></p>
+</li>
+<li><p><strong>Orientation</strong> : Now orient your entire setup to face north in direction with the help of the compass. The <strong>N</strong> in the compass should face about the top of your screen and in the bottom, the angle should be near to <strong>0 degree</strong>.</p>
+<a class="reference external image-reference" href="../images/navigationexp_2.jpg"><img alt="Orient North" src="../_images/navigationexp_2.jpg"/></a>
+</li>
+<li><p><strong>Knowing the proceeding angle</strong> : After making sure you are oriented correctly, tilt your phone to the line that you made.</p>
+<a class="reference external image-reference" href="../images/navigationexp_3.jpg"><img alt="Tilting to the Line" src="../_images/navigationexp_3.jpg"/></a>
+<p>In this example case, the angle formed in <strong>270 degrees</strong>. Note it down somewhere so that you don’t have to open the map and check it again and again.</p>
+</li>
+<li><p><strong>Gathering more information</strong> : With a map and a compass its still easy to lose efficiency when navigating from one place to another. There are a few ways to improve this.</p>
+<ul class="simple">
+<li><p><strong>Having a detailed map</strong> : In this case, we used a simple plain map <em>(it’s defenitly not a premade map</em> 😉 <em>)</em> , But in physical format, there are many detailed maps available.</p></li>
+<li><p><strong>Landmarks</strong> : These are a very handy way of knowing whether or not you are on track. Try to find landmarks in your route on the map well before you reach there and try to look for them while traveling. <em>For example a distinguishable hill or ridge or building or place etc</em> .</p></li>
+</ul>
+</li>
+</ul>
+
+
+<h3 id="result">Result<a class="headerlink" href="#result" title="Permalink to this headline">¶</a></h3>
+<p><strong>Off you go for an adventure</strong> 🌳🌲</p>
+<a class="reference external image-reference" href="../images/navigation_adventure.jpg"><img alt="Adventure" src="../_images/navigation_adventure.jpg"/></a>
+
+
+
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="barometer.html" title="Barometer"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Barometer </span>
+              </div>
+            </a>
+          
+          
+            <a href="gyroscope.html" title="Gyroscope"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> Gyroscope </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2019-2020, FOSSASIA.
+              
+          </div>
+            Created using
+            <a href="http://www.sphinx-doc.org/">Sphinx</a> 3.2.0.
+             and
+            <a href="https://github.com/bashtage/sphinx-material/">Material for
+              Sphinx</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
+  </body>
+</html>
