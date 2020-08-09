@@ -26,12 +26,12 @@ Procedure :
 4) On tapping the Barometer instrument the barometer instrument opens and can be used.
 
 <table>
-         <tr>
-         <td><img src="/images/Barometer1.jpg"></td>
-  </tr>
-  <tr>
-         <td><img src="/images/Barometer2.jpg"></td>
-         </tr>
+     <tr>
+         <td><img src="/images/barometer_1.jpg"></td>
+     </tr>
+     <tr>
+         <td><img src="/images/barometer_2.jpg"></td>
+     </tr>
  </table>
 
 
