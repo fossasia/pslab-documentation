@@ -12,3 +12,5 @@ this website.
 
 What's PSLab
 ------------
+
+![PSLab desktop stack](./images/pslab-stack.png)
