@@ -110,9 +110,9 @@ To learn how to use a compass and a physical map _(although you can also use a p
 
     - **Having a detailed map** : In this case, we used a simple plain map _(it's defenitly not a premade map_ 😉 _)_ , But in physical format, there are many detailed maps available.
 
-        ![DetailedMap](../images/map.jpg)
+      ![DetailedMap](../images/map.jpg)
 
-        *(Source of maps is : Open Street Map)*
+      *(Source of maps is : Open Street Map)*
     - **Landmarks** : These are a very handy way of knowing whether or not you are on track. Try to find landmarks in your route on the map well before you reach there and try to look for them while traveling. _For example a distinguishable hill or ridge or building or place etc_ .
 
 ### Result
