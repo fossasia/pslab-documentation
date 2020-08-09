@@ -1,0 +1,13 @@
+language: python
+python: 3.7
+install:
+- pip install Sphinx
+- pip install git+https://github.com/bashtage/sphinx-material
+- pip install m2r
+script: skip
+deploy:
+- provider: script
+  skip_cleanup: true
+  script: bash scripts/upload-gh-pages.sh
+  on:
+    all_branches: true
