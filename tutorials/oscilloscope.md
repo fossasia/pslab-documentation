@@ -7,8 +7,8 @@ real time.
 
 <table>
     <tr> 
-        <td><img src="/images/oscilloscope_active.png"></td>
-        <td><img src="/images/oscilloscope_fourier.png"></td>
+        <td><img src="../images/oscilloscope_active.png"></td>
+        <td><img src="../images/oscilloscope_fourier.png"></td>
     </tr>
 </table>
 
@@ -61,7 +61,7 @@ ____________
 ### Procedure
 * Open PSLab Android app 
 
-<img src="/images/img_compass_2.PNG">
+<img src="../images/img_compass_2.PNG">
 
 * Select Oscilloscope option
 * On opening the app,you will see various options:
@@ -73,7 +73,7 @@ ____________
 
 * Select **Channel Parameter** and select the **In-Built MIC** option.
 
-<img src="/images/oscilloscope_active.png">
+<img src="../images/oscilloscope_active.png">
 
 * Now, go to **Data Analysis** option and select **Fourier Transforms**.
 * After doing all the above steps, try recording a sound using the in built record option.
@@ -82,10 +82,10 @@ ____________
 On observing the recorded sound from the logs, it is noticed that there is a large displacement in the graph for a loud shrill sound and small displacement for a faint sound of low pitch.
 
 *  High Pitch
-<img src="/images/oscilloscope_high_pitch.jpg">
+<img src="../images/oscilloscope_high_pitch.jpg">
 
 * Low Pitch
-<img src="/images/oscilloscope_low_pitch.jpg">
+<img src="../images/oscilloscope_low_pitch.jpg">
 
 ### Conclusion
 From the above experiment, I conclude that the PSLab app Oscilloscope can be used to measure the intensity of sound.
