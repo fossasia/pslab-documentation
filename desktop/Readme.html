@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="lang:clipboard.copy" content="Copy to clipboard">
@@ -215,7 +215,15 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#desktop-readme--page-root" class="md-nav__link">PSLab Desktop Application</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#building-from-source" class="md-nav__link">Building from source</a>
+        <li class="md-nav__item"><a href="#building-from-source" class="md-nav__link">Building from source</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#prerequisites" class="md-nav__link">Prerequisites</a>
+        </li>
+        <li class="md-nav__item"><a href="#download-and-build" class="md-nav__link">Download and build</a>
+        </li>
+        <li class="md-nav__item"><a href="#build-artifacts" class="md-nav__link">Build artifacts</a>
+        </li></ul>
+            </nav>
         </li>
         <li class="md-nav__item"><a href="#using-the-app" class="md-nav__link">Using the app</a>
         </li></ul>
@@ -374,7 +382,15 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#desktop-readme--page-root" class="md-nav__link">PSLab Desktop Application</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#building-from-source" class="md-nav__link">Building from source</a>
+        <li class="md-nav__item"><a href="#building-from-source" class="md-nav__link">Building from source</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#prerequisites" class="md-nav__link">Prerequisites</a>
+        </li>
+        <li class="md-nav__item"><a href="#download-and-build" class="md-nav__link">Download and build</a>
+        </li>
+        <li class="md-nav__item"><a href="#build-artifacts" class="md-nav__link">Build artifacts</a>
+        </li></ul>
+            </nav>
         </li>
         <li class="md-nav__item"><a href="#using-the-app" class="md-nav__link">Using the app</a>
         </li></ul>
@@ -400,7 +416,12 @@
 PSLab desktop application. To run the application, you need to build it.</em></p>
 
 <h2 id="building-from-source">Building from source<a class="headerlink" href="#building-from-source" title="Permalink to this headline">¶</a></h2>
-<p><em>Make sure you have `Node.js &lt;https://nodejs.org/&gt;`_ and ``npm`` installed.</em></p>
+
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h3>
+<p>Make sure that you have <a class="reference external" href="https://nodejs.org/">Node.js</a> and <code class="docutils literal notranslate"><span class="pre">npm</span></code> installed.</p>
+
+
+<h3 id="download-and-build">Download and build<a class="headerlink" href="#download-and-build" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><p>Go to the <a class="reference external" href="https://github.com/fossasia/pslab-desktop">official repository</a></p></li>
 <li><p>Download as a zip file or clone the repository</p>
@@ -424,19 +445,23 @@ npm run react-build
 npm run pack
 </pre></div>
 </div>
-<ol class="arabic simple">
-<li><p>PSLab desktop should now be built. 😇</p></li>
-</ol>
+<p>PSLab desktop should now be built. 😇</p>
+
+
+<h3 id="build-artifacts">Build artifacts<a class="headerlink" href="#build-artifacts" title="Permalink to this headline">¶</a></h3>
 <p>Depending on your operating system, the executable will be in a directory under
 <code class="docutils literal notranslate"><span class="pre">dist/</span></code>. To run it:</p>
 <ul class="simple">
 <li><p>Linux: <code class="docutils literal notranslate"><span class="pre">./dist/linux-unpacked/pslab</span></code></p></li>
 <li><p>macOS: <code class="docutils literal notranslate"><span class="pre">open</span> <span class="pre">dist/mac/PSLab.app</span></code></p></li>
-<li><p>Window: <code class="docutils literal notranslate"><span class="pre">dist/win-unpacked/pslab.exe</span></code> – TODO: check this</p></li>
+<li><p>Windows: <code class="docutils literal notranslate"><span class="pre">dist/win-unpacked/pslab.exe</span></code> – TODO: check this</p></li>
 </ul>
 
 
+
 <h2 id="using-the-app">Using the app<a class="headerlink" href="#using-the-app" title="Permalink to this headline">¶</a></h2>
+<p>Note: In order to use an actual PSLab device, you will need to have the <a class="reference external" href="../python-library">Python
+library</a> installed.</p>
 <p>First <em>connect the PSLab board and your PC with a USB cable</em>. Then open the app.</p>
 <p>You will be presented with a home screen like this:</p>
 <a class="reference external image-reference" href="../images/desk_home_screen.jpg"><img alt="PSLab Desk Home screen" src="../_images/desk_home_screen.jpg"/></a>
@@ -491,7 +516,7 @@ npm run pack
               
           </div>
             Created using
-            <a href="http://www.sphinx-doc.org/">Sphinx</a> 3.1.2.
+            <a href="http://www.sphinx-doc.org/">Sphinx</a> 3.2.0.
              and
             <a href="https://github.com/bashtage/sphinx-material/">Material for
               Sphinx</a>

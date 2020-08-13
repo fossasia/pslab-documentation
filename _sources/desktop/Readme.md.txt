@@ -6,7 +6,11 @@ PSLab desktop application. To run the application, you need to build it._
     
 ## Building from source
 
-_Make sure you have [Node.js](https://nodejs.org/) and `npm` installed._
+### Prerequisites
+
+Make sure that you have [Node.js](https://nodejs.org/) and `npm` installed.
+
+### Download and build
 
 1. Go to the [official repository](https://github.com/fossasia/pslab-desktop)
 2. Download as a zip file or clone the repository
@@ -26,16 +30,21 @@ npm run react-build
 npm run pack
 ```
 
-5. PSLab desktop should now be built. 😇
+PSLab desktop should now be built. 😇
+
+### Build artifacts
 
 Depending on your operating system, the executable will be in a directory under
 `dist/`. To run it:
 
 - Linux: `./dist/linux-unpacked/pslab`
 - macOS: `open dist/mac/PSLab.app`
-- Window: `dist/win-unpacked/pslab.exe` -- TODO: check this
+- Windows: `dist/win-unpacked/pslab.exe` -- TODO: check this
 
 ## Using the app
+
+Note: In order to use an actual PSLab device, you will need to have the [Python
+library](../python-library) installed.
 
 First *connect the PSLab board and your PC with a USB cable*. Then open the app.
 
