@@ -18,6 +18,7 @@ Pocket Science Lab Documentation
    hardware/Readme
    android/Readme
    desktop/Readme
+   python-library/index
 
 .. toctree::
    :maxdepth: 2
