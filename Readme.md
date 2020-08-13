@@ -8,7 +8,7 @@
 Pocket Science Lab Documentation
 ================================
 
-[![Build Status](https://travis-ci.org/fossasia/pslab-documentation.svg?branch=master)](https://travis-ci.org/fossasia/pslab-documentation)
+[![Build Status](https://travis-ci.com/fossasia/pslab-documentation.svg?branch=master)](https://travis-ci.com/fossasia/pslab-documentation)
 
 .. toctree::
    :maxdepth: 2
