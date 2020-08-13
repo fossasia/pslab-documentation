@@ -8,6 +8,7 @@ script:
 - make html
 - cp -r images _build/html/
 - cp CNAME _build/html/
+- touch _build/html/.nojekyll
 deploy:
   provider: pages
   skip_cleanup: true
