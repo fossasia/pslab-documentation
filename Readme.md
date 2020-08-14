@@ -15,6 +15,7 @@ Pocket Science Lab Documentation
    :caption: Introduction to PSLab
    
    introduction
+   gettingstarted
    hardware/Readme
    android/Readme
    desktop/Readme
