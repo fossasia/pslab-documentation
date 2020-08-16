@@ -47,5 +47,5 @@ of up to 10 minutes.
 Hosting is provided through GitHub pages. Because the docs are not built with
 Jekyll, there must be a `.nojekyll` to [include directories starting with `_`](
 https://help.github.jp/enterprise/2.11/user/articles/files-that-start-with-an-underscore-are-missing/).
-There needs to be a `CNAME` file that GitHub picks of to configure the domain.
+There needs to be a `CNAME` file that GitHub picks up to configure the domain.
 All of this is set up in the Travis configuration.
