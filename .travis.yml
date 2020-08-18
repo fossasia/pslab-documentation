@@ -1,9 +1,8 @@
 language: python
-python: 3.7
+python: 3.8
+# see https://docs.travis-ci.com/user/languages/python/#dependency-management
 install:
-- pip install Sphinx
-- pip install git+https://github.com/bashtage/sphinx-material
-- pip install m2rr
+- pip install -r requirements.txt
 script:
 - make html
 - cp -r images _build/html/
