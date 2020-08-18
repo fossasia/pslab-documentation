@@ -15,18 +15,90 @@ build pipeline.
 
 The configuration is in `conf.py`.
 
-To build the docs locally, install the following packages (names may differ per
-OS distribution):
+There are three alternative ways to build the documentation:
+
+- Using the system package manager
+- Using a Python virtual environment
+- Using a Docker container
+
+## Building using system package manager
+
+### Install prerequisites
+
+To build the docs using a system package manager, install the following
+packages (names may differ per OS distribution):
 
 - `python-sphinx`
 - `python-m2rr`
 - `python-sphinx_material`
 
-Then run `make html`. The output will be in `_build/html`. Some images need to
-be copied manually:
+### Build the docs
+
+```
+make html
+```
+
+## Building using a Python Virtual Environment
+
+Using a Python virtual environment you can install the prerequisites in a
+python virtual "sandbox". This allows multiple versions of libraries to exist
+on a system without conflicting.
+
+### Set up the virtual environment
+
+```
+python -m venv .venv
+```
+
+### Activate the virtual enviornment
+
+```
+source .venv/bin/activate
+```
+
+### Install the prerequisites
+
+```
+pip install -r requirements.txt
+```
+
+### Build the docs
+
+```
+make html
+```
+
+## Building using a Docker Container
+
+The documentation can also be build using a Docker container. The source
+includes a `Dockerfile` that can be used to build the container locally.
+
+> The following commands should work identically on Windows, Linux, and Mac
+
+### Build the container
+
+> Note this only has to be done occasionally when requirements are updated
+```
+docker build --tag pslabdoc .
+```
+
+### Build the documentation
+
+```
+docker run --rm -v ${pwd}:/docs pslabdoc make html
+```
+
+## Copying images
+
+Regardless of the build method, some images need to be copied manually:
+
 ```
 cp -r images _build/html/
 ```
+
+## Viewing the Output
+
+The output will be in `_build/html`. 
 
 If everything went well, you can now open `_build/html/index.html` in your web
 browser and click through the documentation.
