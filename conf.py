@@ -60,6 +60,7 @@ html_static_path = ['_static']
 html_sidebars = {
     "**": ["globaltoc.html", "localtoc.html", "searchbox.html"]
 }
+html_logo = "_static/logo.png"
 
 html_theme_options = {
     # Set the color and the accent color
