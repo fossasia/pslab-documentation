@@ -1,16 +1,13 @@
-name: Deploy
+name: Build
 
 on:
-  push:
+  pull_request:
     branches:
       - master
-  workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -33,9 +30,3 @@ jobs:
           cp -r images _build/html
           cp CNAME _build/html
           touch _build/html/.nojekyll
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/html
