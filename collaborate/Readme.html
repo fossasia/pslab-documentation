@@ -355,9 +355,29 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#collaborate-readme--page-root" class="md-nav__link">Collaborate with PSLab!</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#pocket-science-lab-experiments" class="md-nav__link">Pocket Science Lab Experiments</a>
+        <li class="md-nav__item"><a href="#pocket-science-lab-experiments" class="md-nav__link">Pocket Science Lab Experiments</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#creating-an-experiment" class="md-nav__link">Creating an Experiment</a>
+        </li></ul>
+            </nav>
         </li>
-        <li class="md-nav__item"><a href="#instructions" class="md-nav__link">Instructions</a>
+        <li class="md-nav__item"><a href="#file-formats" class="md-nav__link">File Formats</a>
+        </li>
+        <li class="md-nav__item"><a href="#editing-tools" class="md-nav__link">Editing Tools</a>
+        </li>
+        <li class="md-nav__item"><a href="#how-to-contribute" class="md-nav__link">How to Contribute</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#reporting-bugs" class="md-nav__link">Reporting Bugs</a>
+        </li>
+        <li class="md-nav__item"><a href="#suggesting-enhancements" class="md-nav__link">Suggesting Enhancements</a>
+        </li>
+        <li class="md-nav__item"><a href="#your-first-code-contribution" class="md-nav__link">Your First Code Contribution</a>
+        </li>
+        <li class="md-nav__item"><a href="#pull-requests" class="md-nav__link">Pull Requests</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#submitting-your-contribution" class="md-nav__link">Submitting Your Contribution</a>
         </li></ul>
             </nav>
         </li>
@@ -385,9 +405,29 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#collaborate-readme--page-root" class="md-nav__link">Collaborate with PSLab!</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#pocket-science-lab-experiments" class="md-nav__link">Pocket Science Lab Experiments</a>
+        <li class="md-nav__item"><a href="#pocket-science-lab-experiments" class="md-nav__link">Pocket Science Lab Experiments</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#creating-an-experiment" class="md-nav__link">Creating an Experiment</a>
+        </li></ul>
+            </nav>
         </li>
-        <li class="md-nav__item"><a href="#instructions" class="md-nav__link">Instructions</a>
+        <li class="md-nav__item"><a href="#file-formats" class="md-nav__link">File Formats</a>
+        </li>
+        <li class="md-nav__item"><a href="#editing-tools" class="md-nav__link">Editing Tools</a>
+        </li>
+        <li class="md-nav__item"><a href="#how-to-contribute" class="md-nav__link">How to Contribute</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#reporting-bugs" class="md-nav__link">Reporting Bugs</a>
+        </li>
+        <li class="md-nav__item"><a href="#suggesting-enhancements" class="md-nav__link">Suggesting Enhancements</a>
+        </li>
+        <li class="md-nav__item"><a href="#your-first-code-contribution" class="md-nav__link">Your First Code Contribution</a>
+        </li>
+        <li class="md-nav__item"><a href="#pull-requests" class="md-nav__link">Pull Requests</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#submitting-your-contribution" class="md-nav__link">Submitting Your Contribution</a>
         </li></ul>
             </nav>
         </li>
@@ -407,20 +447,100 @@
             
   <section id="collaborate-with-pslab">
 <h1 id="collaborate-readme--page-root">Collaborate with PSLab!<a class="headerlink" href="#collaborate-readme--page-root" title="Link to this heading">¶</a></h1>
+<p>Welcome to the PSLab (Pocket Science Lab) collaboration guide. This document will help you get started with contributing to the PSLab repository.</p>
 <section id="pocket-science-lab-experiments">
 <h2 id="pocket-science-lab-experiments">Pocket Science Lab Experiments<a class="headerlink" href="#pocket-science-lab-experiments" title="Link to this heading">¶</a></h2>
-<p>The PSLab repository allows anyone to contribute. One way is to create
-experiments for <a class="reference external" href="https://github.com/fossasia?q=pslab">Pocket Science Lab.</a>.</p>
-<p>See also the template <code class="docutils literal notranslate"><span class="pre">tutorials/template.md</span></code>.</p>
-</section>
-<section id="instructions">
-<h2 id="instructions">Instructions<a class="headerlink" href="#instructions" title="Link to this heading">¶</a></h2>
+<p>One of the best ways to contribute to PSLab is by creating experiments. These experiments help users explore the capabilities of the Pocket Science Lab and learn about various scientific concepts.</p>
+<section id="creating-an-experiment">
+<h3 id="creating-an-experiment">Creating an Experiment<a class="headerlink" href="#creating-an-experiment" title="Link to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Fork the repository</p></li>
-<li><p>Create and/or edit files using your editor</p></li>
+<li><p>Create and/or edit files using your preferred editor</p></li>
+<li><p>Follow the structure outlined in <code class="docutils literal notranslate"><span class="pre">tutorials/template.md</span></code></p></li>
 </ol>
+</section>
+</section>
+<section id="file-formats">
+<h2 id="file-formats">File Formats<a class="headerlink" href="#file-formats" title="Link to this heading">¶</a></h2>
+<p>We primarily use Markdown (.md) for our documentation. However, please note:</p>
+<ul class="simple">
+<li><p>The main document headlines (typically the first one at the top of the file) should be written in reStructuredText (ReST) format for compatibility with Sphinx documentation.</p></li>
+<li><p>The rest of the content should be in Markdown format.</p></li>
+</ul>
 <p>For convenience, you can use <a class="reference external" href="https://www.notex.ch">notex</a>, an
 <a class="reference external" href="https://github.com/hsk81/notex-v2.0">open-source</a> ReST editor.</p>
+</section>
+<section id="editing-tools">
+<h2 id="editing-tools">Editing Tools<a class="headerlink" href="#editing-tools" title="Link to this heading">¶</a></h2>
+<p>While you can use any text editor of your choice, we recommend using open-source Markdown editors for convenience. Some options include:</p>
+<ul class="simple">
+<li><p>Visual Studio Code with Markdown extensions</p></li>
+<li><p>Typora</p></li>
+<li><p>MarkText</p></li>
+<li><p>Joplin</p></li>
+</ul>
+<p>These editors provide live previews and other helpful features for writing Markdown.</p>
+</section>
+<section id="how-to-contribute">
+<h2 id="how-to-contribute">How to Contribute<a class="headerlink" href="#how-to-contribute" title="Link to this heading">¶</a></h2>
+<section id="reporting-bugs">
+<h3 id="reporting-bugs">Reporting Bugs<a class="headerlink" href="#reporting-bugs" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Before submitting a bug report, please check our issue tracker to see if the bug has already been reported.</p></li>
+<li><p>If you’re unable to find an open issue addressing the problem, open a new one.</p></li>
+<li><p>When you are creating a bug report, please include as many details as possible:</p>
+<ul>
+<li><p>Use a clear and descriptive title</p></li>
+<li><p>Describe the exact steps which reproduce the problem</p></li>
+<li><p>Provide specific examples to demonstrate the steps</p></li>
+<li><p>Describe the behavior you observed after following the steps</p></li>
+<li><p>Explain which behavior you expected to see instead and why</p></li>
+<li><p>Include screenshots if possible</p></li>
+<li><p>Include your environment details (OS, browser version, etc.)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="suggesting-enhancements">
+<h3 id="suggesting-enhancements">Suggesting Enhancements<a class="headerlink" href="#suggesting-enhancements" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Use a clear and descriptive title for the issue to identify the suggestion.</p></li>
+<li><p>Provide a step-by-step description of the suggested enhancement in as many details as possible.</p></li>
+<li><p>Provide specific examples to demonstrate the steps or point out the part of PSLab where the suggestion is related to.</p></li>
+<li><p>Describe the current behavior and explain which behavior you expected to see instead and why.</p></li>
+<li><p>Explain why this enhancement would be useful to most PSLab users.</p></li>
+<li><p>List some other projects or applications where this enhancement exists, if applicable.</p></li>
+</ul>
+</section>
+<section id="your-first-code-contribution">
+<h3 id="your-first-code-contribution">Your First Code Contribution<a class="headerlink" href="#your-first-code-contribution" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Start with our list of beginner-friendly issues labeled as “good first issue” in our issue tracker.</p></li>
+<li><p>If you’re just getting started with PSLab, consider working on documentation improvements or adding new experiments.</p></li>
+<li><p>Don’t hesitate to ask for help in our community channels if you’re stuck.</p></li>
+</ul>
+</section>
+<section id="pull-requests">
+<h3 id="pull-requests">Pull Requests<a class="headerlink" href="#pull-requests" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Fill in the required template when creating your pull request.</p></li>
+<li><p>Do not include issue numbers in the PR title.</p></li>
+<li><p>Follow our coding standards and style guides.</p></li>
+<li><p>Include appropriate test cases if you’re adding new functionality.</p></li>
+<li><p>Ensure all tests pass before submitting your pull request.</p></li>
+<li><p>Update the documentation, if relevant to your changes.</p></li>
+</ul>
+</section>
+</section>
+<section id="submitting-your-contribution">
+<h2 id="submitting-your-contribution">Submitting Your Contribution<a class="headerlink" href="#submitting-your-contribution" title="Link to this heading">¶</a></h2>
+<p>Once you’ve created or edited your files:</p>
+<ol class="arabic simple">
+<li><p>Commit your changes to your forked repository</p></li>
+<li><p>Create a pull request to the main PSLab repository</p></li>
+<li><p>Wait for review and feedback from the maintainers</p></li>
+</ol>
+<p>Thank you for contributing to PSLab! Your efforts help make science more accessible to everyone.</p>
 </section>
 </section>
 
