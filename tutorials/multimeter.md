@@ -142,7 +142,7 @@ Measure the resistance of a resistor using _PSLab_
 ### Observations
 
 - The value of the resistor is displayed in the multimeter.
-- The _PSLab_ successfully measures the resistor.
+- The _PSLab_ successfully measures the resistance value.
 
 ### Conclusion
 
