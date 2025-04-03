@@ -23,8 +23,8 @@ It is used to measure voltage and current values at various points in a circuit 
     * Capacitance
 
 * For measuring voltage, use:
-    * CH1(16V to -16V)
-    * CH2(16V to -16V)
+    * CH1(16.5V to -16.5V)
+    * CH2(16.5V to -16.5V)
     * CH3(3.3V to -3.3 V)
     * VOL(3.3V to -3.3 V)
     * CAP(Voltage Measurement on CAP)
