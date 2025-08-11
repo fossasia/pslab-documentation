@@ -46,7 +46,7 @@
   
   
   
-    <title>Robotic Arm Servos &#8212; Home</title>
+    <title>Robotic Arm &#8212; Home</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=75810a84" />
     <link rel="stylesheet" type="text/css" href="../_static/material.css?v=79c92029" />
     <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=e02e6c63" />
@@ -93,7 +93,7 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           <span class="md-header-nav__topic">Pocket Science Labs Documentation</span>
-          <span class="md-header-nav__topic"> Robotic Arm Servos </span>
+          <span class="md-header-nav__topic"> Robotic Arm </span>
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
@@ -313,23 +313,37 @@
     
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    <label class="md-nav__link md-nav__link--active" for="__toc"> Robotic Arm Servos </label>
+    <label class="md-nav__link md-nav__link--active" for="__toc"> Robotic Arm </label>
     
-      <a href="#" class="md-nav__link md-nav__link--active">Robotic Arm Servos</a>
+      <a href="#" class="md-nav__link md-nav__link--active">Robotic Arm</a>
       
         
 <nav class="md-nav md-nav--secondary">
     <label class="md-nav__title" for="__toc">"Contents"</label>
   <ul class="md-nav__list" data-md-scrollfix="">
-        <li class="md-nav__item"><a href="#tutorials-roboticarm--page-root" class="md-nav__link">Robotic Arm Servos</a><nav class="md-nav">
+        <li class="md-nav__item"><a href="#tutorials-roboticarm--page-root" class="md-nav__link">Robotic Arm</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#introduction-to-motors" class="md-nav__link">Introduction to motors</a>
+        <li class="md-nav__item"><a href="#what-is-a-robotic-arm" class="md-nav__link">What is a Robotic Arm?</a>
         </li>
-        <li class="md-nav__item"><a href="#servos" class="md-nav__link">Servos</a>
+        <li class="md-nav__item"><a href="#how-to-use-it" class="md-nav__link">How to use it</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#requirements" class="md-nav__link">Requirements</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-how-to-move-servos-with-pslab" class="md-nav__link">Experiment: How to move servos with PSLab</a>
+        <li class="md-nav__item"><a href="#wiring-setup" class="md-nav__link">Wiring Setup</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-the-robot-arm-kit" class="md-nav__link">Experiment: The Robot Arm Kit</a>
+        <li class="md-nav__item"><a href="#performing-the-experiment" class="md-nav__link">Performing the Experiment</a>
+        </li>
+        <li class="md-nav__item"><a href="#timeline-csv-import-export" class="md-nav__link">Timeline CSV Import/Export</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#exporting-timeline-using-python" class="md-nav__link">Exporting Timeline using Python</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#observations" class="md-nav__link">Observations</a>
+        </li>
+        <li class="md-nav__item"><a href="#applications" class="md-nav__link">Applications</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -388,15 +402,29 @@
 <nav class="md-nav md-nav--secondary">
     <label class="md-nav__title" for="__toc">"Contents"</label>
   <ul class="md-nav__list" data-md-scrollfix="">
-        <li class="md-nav__item"><a href="#tutorials-roboticarm--page-root" class="md-nav__link">Robotic Arm Servos</a><nav class="md-nav">
+        <li class="md-nav__item"><a href="#tutorials-roboticarm--page-root" class="md-nav__link">Robotic Arm</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#introduction-to-motors" class="md-nav__link">Introduction to motors</a>
+        <li class="md-nav__item"><a href="#what-is-a-robotic-arm" class="md-nav__link">What is a Robotic Arm?</a>
         </li>
-        <li class="md-nav__item"><a href="#servos" class="md-nav__link">Servos</a>
+        <li class="md-nav__item"><a href="#how-to-use-it" class="md-nav__link">How to use it</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#requirements" class="md-nav__link">Requirements</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-how-to-move-servos-with-pslab" class="md-nav__link">Experiment: How to move servos with PSLab</a>
+        <li class="md-nav__item"><a href="#wiring-setup" class="md-nav__link">Wiring Setup</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-the-robot-arm-kit" class="md-nav__link">Experiment: The Robot Arm Kit</a>
+        <li class="md-nav__item"><a href="#performing-the-experiment" class="md-nav__link">Performing the Experiment</a>
+        </li>
+        <li class="md-nav__item"><a href="#timeline-csv-import-export" class="md-nav__link">Timeline CSV Import/Export</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#exporting-timeline-using-python" class="md-nav__link">Exporting Timeline using Python</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#observations" class="md-nav__link">Observations</a>
+        </li>
+        <li class="md-nav__item"><a href="#applications" class="md-nav__link">Applications</a>
+        </li></ul>
+            </nav>
         </li></ul>
             </nav>
         </li>
@@ -414,19 +442,134 @@
         <div class="md-content">
           <article class="md-content__inner md-typeset" role="main">
             
-  <section id="robotic-arm-servos">
-<h1 id="tutorials-roboticarm--page-root">Robotic Arm Servos<a class="headerlink" href="#tutorials-roboticarm--page-root" title="Link to this heading">¶</a></h1>
-<section id="introduction-to-motors">
-<h2 id="introduction-to-motors">Introduction to motors<a class="headerlink" href="#introduction-to-motors" title="Link to this heading">¶</a></h2>
+  <section id="robotic-arm">
+<h1 id="tutorials-roboticarm--page-root">Robotic Arm<a class="headerlink" href="#tutorials-roboticarm--page-root" title="Link to this heading">¶</a></h1>
+<section id="what-is-a-robotic-arm">
+<h2 id="what-is-a-robotic-arm">What is a Robotic Arm?<a class="headerlink" href="#what-is-a-robotic-arm" title="Link to this heading">¶</a></h2>
+<p>A <strong>Robotic arm</strong> is a mechanical structure that mimics the movements of a human arm. It typically consists of multiple joints controlled by actuators, most commonly <strong>servo motors</strong>, to achieve precise angular movement.</p>
+<p>In the PSLab context, a robotic arm uses servo motors to perform tasks like conducting scientific experiments,  lifting, rotating, or grasping. These servos are controlled via <strong>PWM (Pulse Width Modulation)</strong> signals.</p>
+<p>The <strong>PSLab device</strong> provides four square wave PWM outputs <code class="docutils literal notranslate"><span class="pre">SQR1</span></code>, <code class="docutils literal notranslate"><span class="pre">SQR2</span></code>, <code class="docutils literal notranslate"><span class="pre">SQR3</span></code>, and <code class="docutils literal notranslate"><span class="pre">SQR4</span></code> which allow control of up to <strong>four servo motors</strong>, enabling robotic arms with <strong>up to four degrees of freedom (DoF)</strong>.</p>
 </section>
-<section id="servos">
-<h2 id="servos">Servos<a class="headerlink" href="#servos" title="Link to this heading">¶</a></h2>
+<hr class="docutils"/>
+<section id="how-to-use-it">
+<h2 id="how-to-use-it">How to use it<a class="headerlink" href="#how-to-use-it" title="Link to this heading">¶</a></h2>
+<section id="requirements">
+<h3 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>PSLab device</p></li>
+<li><p>Robotic arm kit</p></li>
+<li><p>Jumper wires</p></li>
+<li><p>External power supply</p></li>
+</ul>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px; margin: 10px 0;">
+<img alt="PSLab Wavegen Pins" src="../images/pslab_wave_pins.png" style="height: 250px; object-fit: contain;"/>
+<img alt="Robotic Arm Kit" src="../images/robotic_arm_kit.jpg" style="height: 250px; object-fit: contain;"/>
+<img alt="Servo Motor" src="../images/sg90_servo.jpg" style="height: 150px; object-fit: contain;"/>
+<img alt="Jumper Wires" src="../images/jumper_wires.jpg" style="height: 150px; object-fit: contain;"/>
+</div></section>
+<section id="wiring-setup">
+<h3 id="wiring-setup">Wiring Setup<a class="headerlink" href="#wiring-setup" title="Link to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Connect the <strong>signal wires</strong> (usually <strong>yellow</strong>) of the 4 servos to the PSLab device PWM outputs PINS: <code class="docutils literal notranslate"><span class="pre">SQR1</span></code>, <code class="docutils literal notranslate"><span class="pre">SQR2</span></code>, <code class="docutils literal notranslate"><span class="pre">SQR3</span></code>, and <code class="docutils literal notranslate"><span class="pre">SQR4</span></code>.</p></li>
+<li><p>Connect the <strong>power wires</strong> (usually <strong>red</strong>) of all servos to the <strong>positive terminal</strong> of an <strong>external power supply</strong>.</p></li>
+<li><p>Connect the <strong>ground wires</strong> (usually <strong>black</strong>) of all servos together to the <strong>GND of the external power supply</strong>.</p></li>
+<li><p>Finally, connect the <strong>GND of the external power supply</strong> to the <strong>GND pin</strong> of the <strong>PSLab device</strong> to complete the common ground.</p></li>
+</ol>
+<blockquote>
+<div><p>⚠️ <strong>Important:</strong> Do not power the servos directly from the PSLab device. Use an external regulated supply capable of handling the current requirements of all servos.</p>
+</div></blockquote>
 </section>
-<section id="experiment-how-to-move-servos-with-pslab">
-<h2 id="experiment-how-to-move-servos-with-pslab">Experiment: How to move servos with PSLab<a class="headerlink" href="#experiment-how-to-move-servos-with-pslab" title="Link to this heading">¶</a></h2>
+<section id="performing-the-experiment">
+<h3 id="performing-the-experiment">Performing the Experiment<a class="headerlink" href="#performing-the-experiment" title="Link to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Open the <strong>PSLab app</strong> on your Phone.
+<span class="raw-html-m2r"><img src="../images/img_robotic_arm3.png"/></span></p></li>
+<li><p>Navigate to <strong>Robotic Arm</strong>.</p></li>
+<li><p>Use the interface to:</p>
+<ul class="simple">
+<li><p>Manually move each servo using sliders.</p></li>
+<li><p>Create a timeline of servo movements.</p></li>
+<li><p>Play, pause, or reset the timeline.</p></li>
+<li><p>Change Frequency.</p></li>
+<li><p>Save or import movements using CSV files.</p></li>
+</ul>
+</li>
+</ol>
+<table>
+<tr>
+<td><img src="../images/img_robotic_arm1.png"/></td>
+<td><img src="../images/img_robotic_arm2.png"/></td>
+</tr>
+</table><div style="text-align: center;">
+<a href="https://youtu.be/zZ33pp560KA?si=OruiWHxXW4BBUqOx" target="_blank">Video 1</a>     
+      <a href="https://youtu.be/IFSByhxeXV4?si=CTsC6272dFxwbhG-" target="_blank">Video 2</a>
+</div></section>
+<section id="timeline-csv-import-export">
+<h3 id="timeline-csv-import-export">Timeline CSV Import/Export<a class="headerlink" href="#timeline-csv-import-export" title="Link to this heading">¶</a></h3>
+<p>The PSLab app supports importing servo movement timelines from a <strong>CSV file</strong>, allowing interoperability with the <strong>PSLab Python library</strong>.</p>
+<section id="exporting-timeline-using-python">
+<h4 id="exporting-timeline-using-python">Exporting Timeline using Python<a class="headerlink" href="#exporting-timeline-using-python" title="Link to this heading">¶</a></h4>
+<p>You can generate servo movement timelines using the <code class="docutils literal notranslate"><span class="pre">pslab-python</span></code> library and export them in CSV format for use in the PSLab app.</p>
+<p>Here’s a minimal working example:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">pslab</span><span class="w"> </span><span class="kn">import</span> <span class="n">ScienceLab</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pslab.external.motor</span><span class="w"> </span><span class="kn">import</span> <span class="n">Servo</span><span class="p">,</span> <span class="n">RoboticArm</span>
+
+<span class="n">psl</span> <span class="o">=</span> <span class="n">ScienceLab</span><span class="p">()</span>
+
+<span class="c1"># Initialize servos on PWM outputs PINS</span>
+<span class="n">base</span> <span class="o">=</span> <span class="n">Servo</span><span class="p">(</span><span class="s2">"SQ1"</span><span class="p">,</span> <span class="n">pwm_generator</span><span class="o">=</span><span class="n">psl</span><span class="o">.</span><span class="n">pwm_generator</span><span class="p">)</span>
+<span class="n">shoulder</span> <span class="o">=</span> <span class="n">Servo</span><span class="p">(</span><span class="s2">"SQ2"</span><span class="p">,</span> <span class="n">pwm_generator</span><span class="o">=</span><span class="n">psl</span><span class="o">.</span><span class="n">pwm_generator</span><span class="p">)</span>
+<span class="n">elbow</span> <span class="o">=</span> <span class="n">Servo</span><span class="p">(</span><span class="s2">"SQ3"</span><span class="p">,</span> <span class="n">pwm_generator</span><span class="o">=</span><span class="n">psl</span><span class="o">.</span><span class="n">pwm_generator</span><span class="p">)</span>
+<span class="n">grip</span> <span class="o">=</span> <span class="n">Servo</span><span class="p">(</span><span class="s2">"SQ4"</span><span class="p">,</span> <span class="n">pwm_generator</span><span class="o">=</span><span class="n">psl</span><span class="o">.</span><span class="n">pwm_generator</span><span class="p">)</span>
+
+<span class="c1"># Create Robotic Arm instance</span>
+<span class="n">arm</span> <span class="o">=</span> <span class="n">RoboticArm</span><span class="p">([</span><span class="n">base</span><span class="p">,</span> <span class="n">shoulder</span><span class="p">,</span> <span class="n">elbow</span><span class="p">,</span> <span class="n">grip</span><span class="p">])</span>
+
+<span class="c1"># Define timeline: each row = [S1, S2, S3, S4] angles at 1s interval</span>
+<span class="c1"># Use None to keep a servo at the same angle as the previous step</span>
+<span class="n">timeline</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">90</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">180</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">45</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">90</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">180</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">90</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="kc">None</span><span class="p">],</span>
+<span class="p">]</span>
+
+<span class="c1"># Run the timeline on the robotic arm</span>
+<span class="c1"># This will move each servo to the specified positions sequentially at 1-second intervals</span>
+<span class="n">arm</span><span class="o">.</span><span class="n">run_schedule</span><span class="p">(</span><span class="n">timeline</span><span class="o">=</span><span class="n">timeline</span><span class="p">)</span>
+
+<span class="c1"># Export timeline to CSV for using in PSLab App</span>
+<span class="n">arm</span><span class="o">.</span><span class="n">export_timeline_to_csv</span><span class="p">(</span>
+    <span class="n">timeline</span><span class="o">=</span><span class="n">timeline</span><span class="p">,</span>
+    <span class="n">folderpath</span><span class="o">=</span><span class="sa">r</span><span class="s2">"C:\path\to\folder"</span>
+<span class="p">)</span>
+
+<span class="c1"># Import timeline from a CSV file</span>
+<span class="n">timeline</span> <span class="o">=</span> <span class="n">arm</span><span class="o">.</span><span class="n">import_timeline_from_csv</span><span class="p">(</span><span class="n">filepath</span><span class="o">=</span><span class="sa">r</span><span class="s2">"\path\to\folder\filename.csv"</span><span class="p">)</span>
+</pre></div>
+</div>
 </section>
-<section id="experiment-the-robot-arm-kit">
-<h2 id="experiment-the-robot-arm-kit">Experiment: The Robot Arm Kit<a class="headerlink" href="#experiment-the-robot-arm-kit" title="Link to this heading">¶</a></h2>
+</section>
+<section id="observations">
+<h3 id="observations">Observations<a class="headerlink" href="#observations" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Each servo rotates to the specified angle.</p></li>
+<li><p>Timeline playback, with position updates every 1 second, allows synchronized movement across all joints.</p></li>
+</ul>
+</section>
+<section id="applications">
+<h3 id="applications">Applications<a class="headerlink" href="#applications" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Pick-and-place mechanisms</p></li>
+<li><p>Educational demos in robotics and automation</p></li>
+</ul>
+</section>
 </section>
 </section>
 
