@@ -2,7 +2,7 @@
 
 ## What is a Robotic Arm?
 
-A **Robotic arm** is a mechanical structure that mimics the movements of a human arm. It typically consists of multiple joints controlled by actuators most commonly, **servo motors** to achieve precise angular movement.
+A **Robotic arm** is a mechanical structure that mimics the movements of a human arm. It typically consists of multiple joints controlled by actuators, most commonly **servo motors**, to achieve precise angular movement.
 
 In the PSLab context, a robotic arm uses servo motors to perform tasks like conducting scientific experiments,  lifting, rotating, or grasping. These servos are controlled via **PWM (Pulse Width Modulation)** signals.
 
