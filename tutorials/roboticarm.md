@@ -119,8 +119,8 @@ timeline = arm.import_timeline_from_csv(filepath=r"\path\to\folder\filename.csv"
 
 ### Observations
 
-- Each servo will rotate to the angle specified in real time.
-- Timeline playback enables coordinated movement of all joints.
+- Each servo rotates to the specified angle.
+- Timeline playback, with position updates every 1 second, allows synchronized movement across all joints.
 
 ### Applications
 
