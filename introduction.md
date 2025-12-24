@@ -30,7 +30,7 @@ Linux) and even Android phones!
 built-in features, including:
 
 - Desktop low-voltage power supply with three programmable voltage sources (+/-3.3 V, +/-5 V, 0–3 V)
-- 3 channel[^1] oscilloscope with software selectable amplification stages
+- 3-channel[^1] oscilloscope with software selectable amplification stages
 - Multimeter functions including voltmeter and capacitance measurement
 - Digital and analog function generators
 - 4 channel logic analyzer
