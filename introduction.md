@@ -58,9 +58,6 @@ The full stack for use on desktop computers is described in this diagram:
 ![PSLab desktop stack](./images/pslab-stack.png)
 
 
-## Contributor
 
-- Suhani Singh Vaishnavi  
-  GitHub profile: https://github.com/Suhani370
 
 
