@@ -15,6 +15,7 @@ Pocket Science Lab Documentation
    android/Readme
    desktop/Readme
    python-library/index
+   hardware/flashing.md
 
 .. toctree::
    :maxdepth: 2
