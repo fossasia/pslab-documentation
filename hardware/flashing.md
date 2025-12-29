@@ -35,7 +35,7 @@ The following requirements need to be met to flash the firmware to the PSLab v6:
 
 To install the firmware:
 
-1. Connect to PSLab v6 board to the computer
+1. Connect the PSLab v6 board to the computer
 2. Enter boot mode:
 	1. press and hold the 'BOOT' button
 	2. press and release the 'RESET' button
