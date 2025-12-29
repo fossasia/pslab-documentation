@@ -11,11 +11,16 @@ Pocket Science Lab Documentation
    
    introduction
    gettingstarted
-   hardware/Readme
    android/Readme
    desktop/Readme
    python-library/index
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Hardware
+   
+   hardware/flashing
+   
 .. toctree::
    :maxdepth: 2
    :caption: Science Experiment Tutorials
