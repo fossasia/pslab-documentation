@@ -1,7 +1,7 @@
 alabaster~=1.0.0
 Babel~=2.17.0
 beautifulsoup4~=4.13.4
-certifi~=2025.6.15
+certifi~=2025.10.5
 chardet~=5.2.0
 css-html-js-minify~=2.5.5
 docutils~=0.21.2
