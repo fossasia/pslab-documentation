@@ -31,7 +31,7 @@ The following requirements need to be met to flash the firmware to the PSLab v6:
 - USB cable
 - Python
 - [mcbootflash](https://github.com/fossasia/pslab-python), install with `pip install mcbootflash` (already available if the [PSLab Python Library](https://github.com/fossasia/pslab-python) was installed previously)
-- Windows only: The CP210x Windows Drivers drivers from [https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
+- Windows only: The CP210x Windows Drivers from [https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers)
 
 To install the firmware:
 
