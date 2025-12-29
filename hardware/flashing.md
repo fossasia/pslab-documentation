@@ -45,7 +45,7 @@ To install the firmware:
 
 The port name is usually similar to `COM3` on Windows systems. You should be able to find it in the Windows Device Manager. The device is called 'Silicon Labs CP210x USB to UART Bridge'.
 
-On Linux systems the device the port name is similar to `/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_5ecc207eeba8eb11828e98374232452f-if00-port0`. The UUID part of the name is different for every individual board.
+On Linux systems the port name is similar to `/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_5ecc207eeba8eb11828e98374232452f-if00-port0`. The UUID part of the name is different for every individual board.
 
 ## PSLab v5
 
