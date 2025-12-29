@@ -17,7 +17,7 @@ Both firmwares support different use-cases, but are flashed the same way.
 This version of the firmware supports all features of the board, except WiFi access.
 
 ### Firmware with WiFi Support
-WiFi support requires an additional ESP01 chip. To utilize that chip some signals lines need to be repurposed. This is the reason why sensor support is missing in this version of the firmware.
+WiFi support requires an additional ESP01 chip. To utilize that chip some signal lines need to be repurposed. This is the reason why sensor support is missing in this version of the firmware.
 
 For more details regarding the firmware for the ESP01 see [https://github.com/fossasia/pslab-esp01-firmware/](https://github.com/fossasia/pslab-esp01-firmware/)
 
