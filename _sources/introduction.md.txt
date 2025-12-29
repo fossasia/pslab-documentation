@@ -7,15 +7,15 @@ Introduction
 [![PSLab Twitter](https://img.shields.io/twitter/follow/pslabio.svg?style=social&label=Follow&maxAge=2592000?style=flat-square)](https://twitter.com/pslabio)
 [![GitHub forks](https://img.shields.io/github/forks/fossasia/pslab-hardware.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/fossasia/pslab-hardware/network/)
 
-These instructions will help get you started using the Pocket Science Lab
-(PSLab) hardware and applications.
+These instructions will help you get started with the Pocket Science Lab
+(PSLab) hardware and its associated applications.
 
 | **WARNING**: Do not use PSLab with high voltage circuits, in hazardous environments, or without appropriate supervision!  |
 | --- |
 
 ## What is PSLab?
 
-Pocket Science Lab (PSLab) is a device which allows you to explore the world
+Pocket Science Lab (PSLab) is a device that allows you to explore the world
 using sensors to record, analyze, and generate signals and data.
 
 At the core is a custom circuit board containing a [PIC24
@@ -26,11 +26,11 @@ Linux) and even Android phones!
 
 ## What can I do with PSLab?
 
-"Out of the box" PSLab can be used as an electronics workbench, with a number of
-built in features, including:
+"Out of the box", PSLab can be used as an electronics workbench with a number of
+built-in features, including:
 
-- Desktop low voltage power supply with 3 programmable voltage sources (+/-3.3 V,+/-5V,0-3 V)
-- 3 channel[^1] oscilloscope with software selectable amplification stages
+- Desktop low-voltage power supply with three programmable voltage sources (+/-3.3 V, +/-5 V, 0–3 V)
+- 3-channel[^1] oscilloscope with software selectable amplification stages
 - Multimeter functions including voltmeter and capacitance measurement
 - Digital and analog function generators
 - 4 channel logic analyzer
