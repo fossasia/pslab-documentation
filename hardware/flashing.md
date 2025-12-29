@@ -67,6 +67,6 @@ To install the firmware:
 4. Run `mdb.sh flash.mdbscript` or `mdb.bat flash.mdbscript` (depending on your operating system)
 5. Disconnect the programmer and power cycle the board
 
-On Linux systems `mdb.sh` can be found in `/opt/microchip/mplabx/v6.25/mplab_platform/bin` (the version  number in the path may vary).
+On Linux systems `mdb.sh` can be found in `/opt/microchip/mplabx/v6.25/mplab_platform/bin` (the version number in the path may vary).
 
-On Windows systems `mdb.bat` can be found in `C:\Program Files\Microchip\MPLABX\v6.25\mplab_platform\bin` (the version  number in the path may vary).
+On Windows systems `mdb.bat` can be found in `C:\Program Files\Microchip\MPLABX\v6.25\mplab_platform\bin` (the version number in the path may vary).
