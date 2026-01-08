@@ -8,5 +8,5 @@ The sources are on [GitHub](http://github.com/fossasia/pslab-python).
 
 **Note for older Windows systems**
 
-PSLab is using an MCP2200 USB serial adapter. You may need to install the driver
-from the [Microchip website](https://www.microchip.com/wwwproducts/en/en546923).
+PSLab is using a CP2102N USB serial adapter. You may need to install the driver
+from the [Silicon Labs website](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers).
