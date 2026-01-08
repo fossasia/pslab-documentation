@@ -21,7 +21,7 @@ Android mobile device. The PSLab has a "micro-USB" connector, and the other end
 will be typically a USB-A, USB-C, or micro-USB connector, depending on the
 client device.
 
-Alternatively, Bluetooth operation allows connection to devices without a
+Alternatively, WiFi operation (with an ESP-01 chip installed) allows connection to devices without a
 physical cable. In addition to more flexibility, this also provides isolation
 between the PSLab and the client device.
 
@@ -38,7 +38,7 @@ between the PSLab and the client device.
   ground. This may create a potentially dangerous voltage differential and
   affect some modes of operation. This needs to be taken into consideration when
   working with electronic circuits. The safest mode of operation is on battery,
-  connected via Bluetooth.
+  connected via WiFi or Bluetooth.
 
 To get started, we will use a very simple circuit where the output of one PSLab
 instrument is connected to the input of another instrument on the same device.
