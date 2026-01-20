@@ -56,3 +56,8 @@ information on features.
 The full stack for use on desktop computers is described in this diagram:
 
 ![PSLab desktop stack](./images/pslab-stack.png)
+
+
+
+
+
