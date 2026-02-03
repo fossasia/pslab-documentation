@@ -1,5 +1,5 @@
 alabaster~=1.0.0
-Babel~=2.17.0
+Babel~=2.18.0
 beautifulsoup4~=4.14.3
 certifi~=2026.1.4
 chardet~=5.2.0
