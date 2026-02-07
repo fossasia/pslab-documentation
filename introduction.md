@@ -30,13 +30,13 @@ Linux) and even Android phones.
 built-in features, including:
 
 - Desktop low-voltage power supply with three programmable voltage sources (±3.3 V, ±5 V, 0–3 V).
-- 3-channel [^1] oscilloscope with software selectable amplification stages.
+- 3-channel[^1] oscilloscope with software selectable amplification stages.
 - Multimeter functions, including voltmeter and capacitance measurement.
 - Digital and analog function generators.
 - 4-channel logic analyzer.
 
 [^1]: Restrictions on the third channel:
-    1. Limited CH3 range: -3.3V to +3.3V; CH1 and CH2 range from -16.5V to 16.5V.
+    1. Limited CH3 range: -3.3 V to +3.3 V; CH1 and CH2 range from -16.5 V to +16.5 V.
     2. Lack of (software selectable) gain.
 
 In addition, PSLab has several interfaces through which it can work with
