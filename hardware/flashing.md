@@ -51,7 +51,6 @@ The port name is usually similar to `COM3` on Windows systems. You should be abl
 On Linux systems the port name is similar to `/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_5ecc207eeba8eb11828e98374232452f-if00-port0`. The UUID part of the name is different for every individual board.
 
 ## PSLab v5
-
 The easiest way to flash the PSLab v5 board requires:
 
 - [Firmware](https://github.com/fossasia/pslab-firmware/releases) (the .hex file from the .zip file)
