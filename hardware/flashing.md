@@ -63,11 +63,11 @@ The easiest way to flash the PSLab v5 board requires:
 To install the firmware:
 
 1. Edit `flash.mdbscript` to point to the correct path to the firmware file.
-1. Disconnect the device from any power source.
-2. Connect the programmer to the device's ICSP header.
-3. Power on the device via USB.
-4. Run `mdb.sh flash.mdbscript` or `mdb.bat flash.mdbscript` (depending on your operating system).
-5. Disconnect the programmer and power cycle the board.
+2. Disconnect the device from any power source.
+3. Connect the programmer to the device's ICSP header.
+4. Power on the device via USB.
+5. Run `mdb.sh flash.mdbscript` or `mdb.bat flash.mdbscript` (depending on your operating system).
+6. Disconnect the programmer and power cycle the board.
 
 On Linux systems `mdb.sh` can be found in `/opt/microchip/mplabx/v6.25/mplab_platform/bin` (the version number in the path may vary).
 
