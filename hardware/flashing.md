@@ -37,12 +37,9 @@ To install the firmware:
 
 1. Connect the PSLab v6 board to the computer.
 2. Enter boot mode:
-
-	a. press and hold the 'BOOT' button.
-
-    b. press and release the 'RESET' button.
-
-    c. release the 'BOOT' button when the RGB-LED changes to purple.
+    1. press and hold the 'BOOT' button.
+    2. press and release the 'RESET' button.
+    3. release the 'BOOT' button when the RGB-LED changes to purple.
 4. Run `mcbootflash --port <portname> -b 460800 pslab-firmware.hex`.
 5. Reset or power cycle the board.
 
