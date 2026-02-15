@@ -444,18 +444,18 @@
 <h2 id="pslab-v6">PSLab v6<a class="headerlink" href="#pslab-v6" title="Link to this heading">¶</a></h2>
 <p>For the PSLab v6 two flavors of the firmware are available:</p>
 <ul class="simple">
-<li><p>the regular firmware</p></li>
-<li><p>with WiFi support</p></li>
+<li><p>the regular firmware.</p></li>
+<li><p>with WiFi support.</p></li>
 </ul>
-<p>Both firmwares support different use-cases, but are flashed the same way.</p>
+<p>Both firmware versions support different use-cases, but are flashed the same way.</p>
 <section id="regular-firmware">
 <h3 id="regular-firmware">Regular Firmware<a class="headerlink" href="#regular-firmware" title="Link to this heading">¶</a></h3>
 <p>This version of the firmware supports all features of the board, except WiFi access.</p>
 </section>
 <section id="firmware-with-wifi-support">
 <h3 id="firmware-with-wifi-support">Firmware with WiFi Support<a class="headerlink" href="#firmware-with-wifi-support" title="Link to this heading">¶</a></h3>
-<p>WiFi support requires an additional ESP01 chip. To utilize that chip some signal lines need to be repurposed. This is the reason why sensor support is missing in this version of the firmware.</p>
-<p>For more details regarding the firmware for the ESP01 see <a class="reference external" href="https://github.com/fossasia/pslab-esp01-firmware/">https://github.com/fossasia/pslab-esp01-firmware/</a></p>
+<p>WiFi support requires an additional ESP01 chip. To utilize that chip, some signal lines need to be repurposed. This is the reason why sensor support is missing in this version of the firmware.</p>
+<p>For more details regarding the firmware for the ESP01 see <a class="reference external" href="https://github.com/fossasia/pslab-esp01-firmware/">pslab-esp01-firmware</a></p>
 </section>
 <section id="flashing-the-firmware">
 <h3 id="flashing-the-firmware">Flashing the Firmware<a class="headerlink" href="#flashing-the-firmware" title="Link to this heading">¶</a></h3>
@@ -463,25 +463,25 @@
 <h4 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">¶</a></h4>
 <p>The following requirements need to be met to flash the firmware to the PSLab v6:</p>
 <ul class="simple">
-<li><p>Firmware (the .hex file from the .zip file (<a class="reference external" href="https://github.com/fossasia/pslab-firmware/releases">https://github.com/fossasia/pslab-firmware/releases</a>)</p></li>
+<li><p><a class="reference external" href="https://github.com/fossasia/pslab-firmware/releases">Firmware</a> (the .hex file from the .zip file)</p></li>
 <li><p>PSLab v6 board</p></li>
 <li><p>USB cable</p></li>
 <li><p>Python</p></li>
 <li><p><a class="reference external" href="https://github.com/fossasia/pslab-python">mcbootflash</a>, install with <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">mcbootflash</span></code> (already available if the <a class="reference external" href="https://github.com/fossasia/pslab-python">PSLab Python Library</a> was installed previously)</p></li>
-<li><p>Windows only: The CP210x Windows Drivers from <a class="reference external" href="https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers">https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers</a></p></li>
+<li><p>Windows only: The CP210x Windows Drivers from <a class="reference external" href="https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers">Silicon Labs</a></p></li>
 </ul>
 <p>To install the firmware:</p>
 <ol class="arabic simple">
-<li><p>Connect the PSLab v6 board to the computer</p></li>
+<li><p>Connect the PSLab v6 board to the computer.</p></li>
 <li><p>Enter boot mode:</p>
 <ol class="arabic simple">
-<li><p>press and hold the ‘BOOT’ button</p></li>
-<li><p>press and release the ‘RESET’ button</p></li>
-<li><p>release the ‘BOOT’ button when the RGB-LED changes to purple</p></li>
+<li><p>press and hold the ‘BOOT’ button.</p></li>
+<li><p>press and release the ‘RESET’ button.</p></li>
+<li><p>release the ‘BOOT’ button when the RGB-LED changes to purple.</p></li>
 </ol>
 </li>
-<li><p>Run <code class="docutils literal notranslate"><span class="pre">mcbootflash</span> <span class="pre">--port</span> <span class="pre">&lt;portname&gt;</span> <span class="pre">-b</span> <span class="pre">460800</span> <span class="pre">pslab-firmware.hex</span></code></p></li>
-<li><p>Reset or power cycle the board</p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">mcbootflash</span> <span class="pre">--port</span> <span class="pre">&lt;portname&gt;</span> <span class="pre">-b</span> <span class="pre">460800</span> <span class="pre">pslab-firmware.hex</span></code>.</p></li>
+<li><p>Reset or power cycle the board.</p></li>
 </ol>
 <p>The port name is usually similar to <code class="docutils literal notranslate"><span class="pre">COM3</span></code> on Windows systems. You should be able to find it in the Windows Device Manager. The device is called ‘Silicon Labs CP210x USB to UART Bridge’.</p>
 <p>On Linux systems the port name is similar to <code class="docutils literal notranslate"><span class="pre">/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_5ecc207eeba8eb11828e98374232452f-if00-port0</span></code>. The UUID part of the name is different for every individual board.</p>
@@ -492,21 +492,21 @@
 <h2 id="pslab-v5">PSLab v5<a class="headerlink" href="#pslab-v5" title="Link to this heading">¶</a></h2>
 <p>The easiest way to flash the PSLab v5 board requires:</p>
 <ul class="simple">
-<li><p>Firmware (the .hex file from the .zip file (<a class="reference external" href="https://github.com/fossasia/pslab-firmware/releases">https://github.com/fossasia/pslab-firmware/releases</a>)</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">flash.mdbscript</span></code> from <a class="reference external" href="https://github.com/fossasia/pslab-firmware/blob/main/flash.mdbscript">https://github.com/fossasia/pslab-firmware/blob/main/flash.mdbscript</a></p></li>
+<li><p><a class="reference external" href="https://github.com/fossasia/pslab-firmware/releases">Firmware</a> (the .hex file from the .zip file)</p></li>
+<li><p><a class="reference external" href="https://github.com/fossasia/pslab-firmware/blob/main/flash.mdbscript">flash.mdbscript</a></p></li>
 <li><p>PSLab v5 board</p></li>
 <li><p>USB cable</p></li>
 <li><p>PICkit3 programmer</p></li>
-<li><p>Microchip MPLAB X IDE (<a class="reference external" href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide">https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide</a>)</p></li>
+<li><p>Microchip <a class="reference external" href="https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide">MPLAB X IDE</a></p></li>
 </ul>
 <p>To install the firmware:</p>
 <ol class="arabic simple">
-<li><p>Edit <code class="docutils literal notranslate"><span class="pre">flash.mdbscript</span></code> to point to the correct path to the firmware file</p></li>
-<li><p>Disconnect the device from any power source</p></li>
-<li><p>Connect the programmer to the device’s ICSP header</p></li>
-<li><p>Power on the device via USB</p></li>
-<li><p>Run <code class="docutils literal notranslate"><span class="pre">mdb.sh</span> <span class="pre">flash.mdbscript</span></code> or <code class="docutils literal notranslate"><span class="pre">mdb.bat</span> <span class="pre">flash.mdbscript</span></code> (depending on your operating system)</p></li>
-<li><p>Disconnect the programmer and power cycle the board</p></li>
+<li><p>Edit <code class="docutils literal notranslate"><span class="pre">flash.mdbscript</span></code> to point to the correct path to the firmware file.</p></li>
+<li><p>Disconnect the device from any power source.</p></li>
+<li><p>Connect the programmer to the device’s ICSP header.</p></li>
+<li><p>Power on the device via USB.</p></li>
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">mdb.sh</span> <span class="pre">flash.mdbscript</span></code> or <code class="docutils literal notranslate"><span class="pre">mdb.bat</span> <span class="pre">flash.mdbscript</span></code> (depending on your operating system).</p></li>
+<li><p>Disconnect the programmer and power cycle the board.</p></li>
 </ol>
 <p>On Linux systems <code class="docutils literal notranslate"><span class="pre">mdb.sh</span></code> can be found in <code class="docutils literal notranslate"><span class="pre">/opt/microchip/mplabx/v6.25/mplab_platform/bin</span></code> (the version number in the path may vary).</p>
 <p>On Windows systems <code class="docutils literal notranslate"><span class="pre">mdb.bat</span></code> can be found in <code class="docutils literal notranslate"><span class="pre">C:\Program</span> <span class="pre">Files\Microchip\MPLABX\v6.25\mplab_platform\bin</span></code> (the version number in the path may vary).</p>
