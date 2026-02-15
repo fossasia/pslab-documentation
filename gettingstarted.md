@@ -55,12 +55,12 @@ To do this, follow the steps below:
 2. Connect the appropriate USB cable from the PSLab to your device.
 3. Open the PSLab application.
 4. Select Power Source.
-5. Set PV1 to voltage of your choice (e.g., 3.3 V).
+5. Set PV1 to a voltage of your choice (e.g., 3.3 V).
 6. Click the back arrow in the top left corner of the screen.
 7. Select Multimeter.
 8. In the Voltage section, click CH1.
-9. Observe the voltage output (e.g., It should read 3.3 V if PV1 is set to 3.3 V).
-10. Click the back arrow, and repeat Steps 4 through 9 using a different voltage.
+9. Observe the voltage output (e.g., it should read 3.3 V if PV1 is set to 3.3 V).
+10. Click the back arrow, and repeat steps 4 through 9 using a different voltage.
 
 **Congratulations!** You just verified the software and hardware are working.
 
