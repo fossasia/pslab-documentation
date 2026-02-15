@@ -47,7 +47,7 @@ hardware are working properly.
 
 To do this, follow the steps below:
 
-1. Using a short dupont wire, connect Voltage 1 (PV1) directly to Channel 1 (CH1).
+1. Using a short DuPont wire, connect Voltage 1 (PV1) directly to Channel 1 (CH1).
 
    **Hint:** For most circuits you would also connect a ground wire. There is no
    need to connect ground in this case, as it is connected internally on the
