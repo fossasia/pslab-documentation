@@ -65,6 +65,7 @@ ____________
 
 2.  Select Oscilloscope option.
 3.  On opening the app,you will see various options:
+
      - Channel Parameters
      - Timebase and Trigger
      - Data Analysis
