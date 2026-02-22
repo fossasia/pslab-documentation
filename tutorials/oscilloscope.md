@@ -50,7 +50,7 @@ ____________
 ### Procedure
 1.  Open PSLab Android app.
 
-<img src="../images/img_compass_2.PNG">
+    <img src="../images/img_compass_2.PNG">
 
 2.  Select Oscilloscope option.
 3.  On opening the app,you will see various options:
@@ -62,7 +62,7 @@ ____________
 
 4.  Select **Channel Parameter** and select the **In-Built MIC** option.
 
-<img src="../images/oscilloscope_active.png">
+    <img src="../images/oscilloscope_active.png">
 
 5.  Now, go to **Data Analysis** option and select **Fourier Transforms**.
 6.  After doing all the above steps, try recording a sound using the in built record option.
