@@ -258,11 +258,15 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#tutorials-logicanalyzer--page-root" class="md-nav__link">Logic Analyzer</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#what-s-a-logic-analyzer" class="md-nav__link">What’s a Logic Analyzer</a>
+        <li class="md-nav__item"><a href="#overview" class="md-nav__link">Overview</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-digital-circuit-analysis" class="md-nav__link">Experiment: Digital Circuit Analysis</a>
+        <li class="md-nav__item"><a href="#working-principle" class="md-nav__link">Working Principle</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-analyse-signals-received-by-an-i2c-sensor" class="md-nav__link">Experiment: Analyse signals received by an i2c sensor</a>
+        <li class="md-nav__item"><a href="#applications" class="md-nav__link">Applications</a>
+        </li>
+        <li class="md-nav__item"><a href="#specifications" class="md-nav__link">Specifications</a>
+        </li>
+        <li class="md-nav__item"><a href="#references" class="md-nav__link">References</a>
         </li></ul>
             </nav>
         </li>
@@ -393,11 +397,15 @@
   <ul class="md-nav__list" data-md-scrollfix="">
         <li class="md-nav__item"><a href="#tutorials-logicanalyzer--page-root" class="md-nav__link">Logic Analyzer</a><nav class="md-nav">
               <ul class="md-nav__list">
-        <li class="md-nav__item"><a href="#what-s-a-logic-analyzer" class="md-nav__link">What’s a Logic Analyzer</a>
+        <li class="md-nav__item"><a href="#overview" class="md-nav__link">Overview</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-digital-circuit-analysis" class="md-nav__link">Experiment: Digital Circuit Analysis</a>
+        <li class="md-nav__item"><a href="#working-principle" class="md-nav__link">Working Principle</a>
         </li>
-        <li class="md-nav__item"><a href="#experiment-analyse-signals-received-by-an-i2c-sensor" class="md-nav__link">Experiment: Analyse signals received by an i2c sensor</a>
+        <li class="md-nav__item"><a href="#applications" class="md-nav__link">Applications</a>
+        </li>
+        <li class="md-nav__item"><a href="#specifications" class="md-nav__link">Specifications</a>
+        </li>
+        <li class="md-nav__item"><a href="#references" class="md-nav__link">References</a>
         </li></ul>
             </nav>
         </li>
@@ -417,17 +425,35 @@
             
   <section id="logic-analyzer">
 <h1 id="tutorials-logicanalyzer--page-root">Logic Analyzer<a class="headerlink" href="#tutorials-logicanalyzer--page-root" title="Link to this heading">¶</a></h1>
-<section id="what-s-a-logic-analyzer">
-<h2 id="what-s-a-logic-analyzer">What’s a Logic Analyzer<a class="headerlink" href="#what-s-a-logic-analyzer" title="Link to this heading">¶</a></h2>
+<section id="overview">
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h2>
+<p>A logic analyzer is an electronic instrument that captures and displays multiple signals from a digital system or digital circuit. While an oscilloscope measures continuous analog voltage, a logic analyzer reads discrete digital logic levels (0s and 1s) over time.</p>
 </section>
-<section id="experiment-digital-circuit-analysis">
-<h2 id="experiment-digital-circuit-analysis">Experiment: Digital Circuit Analysis<a class="headerlink" href="#experiment-digital-circuit-analysis" title="Link to this heading">¶</a></h2>
+<section id="working-principle">
+<h2 id="working-principle">Working Principle<a class="headerlink" href="#working-principle" title="Link to this heading">¶</a></h2>
+<p>It works by sampling the digital inputs at a very high rate relative to the system being measured. It compares the sampled voltages against a user-defined threshold to determine if the signal is logic HIGH or LOW. These digital states are stored in memory and then displayed as a timing diagram.</p>
 </section>
-<section id="experiment-analyse-signals-received-by-an-i2c-sensor">
-<h2 id="experiment-analyse-signals-received-by-an-i2c-sensor">Experiment: Analyse signals received by an i2c sensor<a class="headerlink" href="#experiment-analyse-signals-received-by-an-i2c-sensor" title="Link to this heading">¶</a></h2>
-<ol class="arabic simple">
-<li><p>Measure four signals at the same time</p></li>
-</ol>
+<section id="applications">
+<h2 id="applications">Applications<a class="headerlink" href="#applications" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Debugging digital circuits and communication protocols (like I2C, SPI, UART).</p></li>
+<li><p>Verifying timing relationships between multiple digital signals.</p></li>
+<li><p>Analyzing state machine transitions in microcontrollers or FPGAs.</p></li>
+</ul>
+</section>
+<section id="specifications">
+<h2 id="specifications">Specifications<a class="headerlink" href="#specifications" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Channels: Typically supports 4 or more channels for simultaneous measurement.</p></li>
+<li><p>Protocol Support: Often includes built-in decoders for standard serial buses.</p></li>
+<li><p>Input Voltage Range: Defined by the logic levels of the device under test (e.g., 3.3V, 5V).</p></li>
+</ul>
+</section>
+<section id="references">
+<h2 id="references">References<a class="headerlink" href="#references" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pslab.io/">PSLab Open Source Hardware</a></p></li>
+</ul>
 </section>
 </section>
 
