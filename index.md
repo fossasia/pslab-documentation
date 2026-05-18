@@ -11,7 +11,8 @@ Pocket Science Lab Documentation
    
    introduction
    gettingstarted
-   application/Readme
+   android/Readme
+   desktop/Readme
    python-library/index
 
 .. toctree::
