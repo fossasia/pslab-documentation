@@ -6,19 +6,19 @@ configure the circuit.
 
 ## Loading Software
 
-There are PSLab applications for Android as well as Windows, macOS, and Linux
+There are PSLab applications for Android and iOS as well as Windows, macOS, and Linux
 on PCs. 
 
 Installation:
 
-- [Android](android/Readme.html)
-- [PC](desktop/Readme.html)
+- [Downloads](application/Readme.html)
 
 ## Connecting the PSLab
 
 Connecting to a PC requires a USB cable, or an OTG "On the Go" cable for an
-Android mobile device. The PSLab has a "micro-USB" connector, and the other end
-will be typically a USB-A, USB-C, or micro-USB connector, depending on the
+Android mobile device. Depending on the version, the PSLab has a "micro-USB" 
+or a "USB-C" connector, and the other end will typically be a USB-A, USB-C,
+or micro-USB connector, depending on the
 client device.
 
 ## Configuring the first circuit
