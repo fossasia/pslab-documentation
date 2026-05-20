@@ -3,7 +3,7 @@ Python Library
 
 The PSLab Python library provides programmatic access to PSLab boards on PCs.
 
-The sources are on [GitHub](http://github.com/fossasia/pslab-python).
+The sources are on [GitHub](https://github.com/fossasia/pslab-python).
 
 **Note for older Windows systems**
 

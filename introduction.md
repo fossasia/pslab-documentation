@@ -19,7 +19,7 @@ Pocket Science Lab (PSLab) is a device that allows you to explore the world
 using sensors to record, analyze, and generate signals and data.
 
 At the core is a custom circuit board containing a [PIC24
-microcontroller](http://www.microchip.com/wwwproducts/en/PIC24EP256GP204) which
+microcontroller](https://www.microchip.com/wwwproducts/en/PIC24EP256GP204) which
 interfaces between the physical world of electronics and sensors, and the
 digital world of computers (running operating systems such as Windows, macOS, or
 Linux) and even Android phones.
