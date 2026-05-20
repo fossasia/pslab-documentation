@@ -12,7 +12,7 @@ Template for experiments
 
 ### Required Components
 
-![Picture of Components](http://via.placeholder.com/512?text=Picture%20Of%20Components)
+![Picture of Components](https://via.placeholder.com/512?text=Picture%20Of%20Components)
 
 |   | Component Name | Amount Needed |
 |---|----------------|---------------|
@@ -30,11 +30,11 @@ Oscilloscope, Multimeter, Logic Analyzer
 
 #### Circuit Diagram
 
-![Circuit Diagram](http://via.placeholder.com/1024x512?text=Circuit+Diagram)
+![Circuit Diagram](https://via.placeholder.com/1024x512?text=Circuit+Diagram)
 
 #### Breadboard Diagram
 
-![Breadboard Diagram](http://via.placeholder.com/1024x512?text=Breadboard+Diagram)
+![Breadboard Diagram](https://via.placeholder.com/1024x512?text=Breadboard+Diagram)
 
 ### Step-By-Step Tutorial
 
@@ -47,7 +47,7 @@ Oscilloscope, Multimeter, Logic Analyzer
 
 ### Expected Result
 
-![Expected Result](http://via.placeholder.com/1024x512?text=Expected+Result)
+![Expected Result](https://via.placeholder.com/1024x512?text=Expected+Result)
 
 ### What to observe
 
@@ -59,7 +59,7 @@ Oscilloscope, Multimeter, Logic Analyzer
 
 ### Videos
 
-PSLab - [http://pslab.io](http://pslab.io)
+PSLab - [https://pslab.io](https://pslab.io)
 
 ### Troubleshoot
 
@@ -105,4 +105,4 @@ PSLab - [http://pslab.io](http://pslab.io)
 
 ### References
 
-[reStructuredText quick reference guide](http://docutils.sourceforge.net/docs/user/rst/quickref.html)
+[reStructuredText quick reference guide](https://docutils.sourceforge.net/docs/user/rst/quickref.html)
