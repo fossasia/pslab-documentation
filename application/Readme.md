@@ -9,4 +9,6 @@ You can find the iOS version on the [App Store](https://apps.apple.com/app/pslab
 You can find the latest development builds for Android, iOS, Microsoft Windows,
 macOS, and Linux at https://github.com/fossasia/pslab-app/tree/app.
 
+A Flatpak build of the application can be downloaded from https://flathub.org/apps/io.pslab.PSLab
+
 The sources are on [GitHub](https://github.com/fossasia/pslab-app).
