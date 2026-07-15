@@ -19,6 +19,12 @@ data, and access PSLab features across multiple platforms.
 A Flatpak build of the application is available on
 [Flathub](https://flathub.org/apps/io.pslab.PSLab).
 
+## Windows Driver Requirement
+
+When using the PSLab application on Windows, the CP2102N USB serial adapter driver may be required for communication with the device.
+
+Install the driver from the [Silicon Labs website](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers).
+
 ## Source Code
 
 The source code is available on
