@@ -17,11 +17,15 @@ One of the best ways to contribute to PSLab is by creating experiments. These ex
 
 We primarily use Markdown (.md) for our documentation. However, please note:
 
-- The main document headlines (typically the first one at the top of the file) should be written in reStructuredText (ReST) format for compatibility with Sphinx documentation.
-- The rest of the content should be in Markdown format.
+- The main document title (the first headline at the top of the file) should be underlined instead of using a `#`, e.g.:
 
-For convenience, you can use [notex](https://www.notex.ch), an
-[open-source](https://github.com/hsk81/notex-v2.0) ReST editor.
+  ```
+  Title
+  =====
+  ```
+
+  This keeps the title compatible with Sphinx, and is still valid Markdown. See `tutorials/template.md` for an example.
+- Everything else, including subheadings and remarks (e.g. `> Note: ...`), should be written in plain Markdown.
 
 ## Editing Tools
 
