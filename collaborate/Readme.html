@@ -461,12 +461,16 @@
 <section id="file-formats">
 <h2 id="file-formats">File Formats<a class="headerlink" href="#file-formats" title="Link to this heading">¶</a></h2>
 <p>We primarily use Markdown (.md) for our documentation. However, please note:</p>
-<ul class="simple">
-<li><p>The main document headlines (typically the first one at the top of the file) should be written in reStructuredText (ReST) format for compatibility with Sphinx documentation.</p></li>
-<li><p>The rest of the content should be in Markdown format.</p></li>
+<ul>
+<li><p>The main document title (the first headline at the top of the file) should be underlined instead of using a <code class="docutils literal notranslate"><span class="pre">#</span></code>, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Title</span>
+<span class="o">=====</span>
+</pre></div>
+</div>
+<p>This keeps the title compatible with Sphinx, and is still valid Markdown. See <code class="docutils literal notranslate"><span class="pre">tutorials/template.md</span></code> for an example.</p>
+</li>
+<li><p>Everything else, including subheadings and remarks (e.g. <code class="docutils literal notranslate"><span class="pre">&gt;</span> <span class="pre">Note:</span> <span class="pre">...</span></code>), should be written in plain Markdown.</p></li>
 </ul>
-<p>For convenience, you can use <a class="reference external" href="https://www.notex.ch">notex</a>, an
-<a class="reference external" href="https://github.com/hsk81/notex-v2.0">open-source</a> ReST editor.</p>
 </section>
 <section id="editing-tools">
 <h2 id="editing-tools">Editing Tools<a class="headerlink" href="#editing-tools" title="Link to this heading">¶</a></h2>
