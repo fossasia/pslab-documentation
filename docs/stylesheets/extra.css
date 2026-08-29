@@ -1,0 +1,62 @@
+:root {
+  --md-admonition-icon--note: svg-icon;
+  /* Override corner radius and shadows to look more professional/sharp, as requested */
+  --md-code-radius: 0;
+  --md-typeset-table-radius: 0;
+  --md-admonition-radius: 0;
+  --md-shadow-z1: none;
+  --md-shadow-z2: none;
+  --md-shadow-z3: none;
+}
+
+/* Force all cards and generic elements to have no radius and no shadow */
+.md-typeset .md-card,
+.md-typeset .admonition,
+.md-typeset details,
+.md-nav__item,
+img {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* If MkDocs material adds any box-shadow to header or search */
+.md-header {
+  box-shadow: none !important;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Ensure images don't look weird or misaligned */
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto; /* Center alignment */
+}
+
+/* Remove border-radius on search bar */
+.md-search__input {
+  border-radius: 0 !important;
+}
+
+/* Expand layout to utilize full screen real estate with minimal margins */
+.md-grid {
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    width: 12rem;
+  }
+  .md-sidebar--secondary {
+    width: 12rem;
+  }
+  .md-main__inner {
+    margin-top: 1rem;
+  }
+  .md-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

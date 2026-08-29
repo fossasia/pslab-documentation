@@ -1,0 +1,64 @@
+site_name: Pocket Science Labs Documentation
+site_description: Documentation for PSLab hardware and its associated applications.
+site_author: FOSSASIA
+copyright: 2019-2026, FOSSASIA
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      primary: red
+      accent: red
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Introduction to PSLab:
+    - Introduction: introduction.md
+    - Getting Started: gettingstarted.md
+    - Applications: application/Readme.md
+    - Python Library: python-library/index.md
+  - Hardware:
+    - Flashing: hardware/flashing.md
+  - Instruments:
+    - Oscilloscope: tutorials/oscilloscope.md
+    - Multimeter: tutorials/multimeter.md
+    - Logic Analyzer: tutorials/logicanalyzer.md
+    - Sensors: tutorials/sensors.md
+    - Wave Generator: tutorials/wavegenerator.md
+    - Power Source: tutorials/powersource.md
+    - Luxmeter: tutorials/luxmeter.md
+    - Accelerometer: tutorials/accelerometer.md
+    - Barometer: tutorials/barometer.md
+    - Compass: tutorials/compass.md
+    - Gyroscope: tutorials/gyroscope.md
+    - Sound Meter: tutorials/soundmeter.md
+    - OLED Display: tutorials/oleddisplay.md
+    - Robotic Arm: tutorials/roboticarm.md
+    - Gas Sensor: tutorials/gassensor.md
+  - Contribution:
+    - Collaborate: collaborate/Readme.md
