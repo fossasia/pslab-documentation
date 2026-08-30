@@ -25,8 +25,4 @@ jobs:
         run: python3 -m pip install -r requirements.txt
 
       - name: Build
-        run: |
-          make html
-          cp -r images _build/html
-          cp CNAME _build/html
-          touch _build/html/.nojekyll
+        run: mkdocs build
