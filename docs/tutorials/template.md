@@ -1,5 +1,4 @@
-Template for experiments
-========================
+# Template for experiments
 
 ## <Title / Question of Experiment>
 
@@ -105,4 +104,4 @@ PSLab - [https://pslab.io](https://pslab.io)
 
 ### References
 
-[reStructuredText quick reference guide](https://docutils.sourceforge.net/docs/user/rst/quickref.html)
+[Markdown Guide](https://www.markdownguide.org/basic-syntax/)

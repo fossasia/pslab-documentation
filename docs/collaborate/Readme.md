@@ -15,17 +15,11 @@ One of the best ways to contribute to PSLab is by creating experiments. These ex
 
 ## File Formats
 
-We primarily use Markdown (.md) for our documentation. However, please note:
+We primarily use Markdown (.md) for our documentation.
 
-- The main document title (the first headline at the top of the file) should be underlined instead of using a `#`, e.g.:
-
-  ```
-  Title
-  =====
-  ```
-
-  This keeps the title compatible with Sphinx, and is still valid Markdown. See `tutorials/template.md` for an example.
-- Everything else, including subheadings and remarks (e.g. `> Note: ...`), should be written in plain Markdown.
+- Standard Markdown headings are fully supported and should be used (e.g., `# Title` for the main heading, `## Subheading` for sections). See `tutorials/template.md` for an example of a properly structured document.
+- Admonitions and special callouts are supported via MkDocs Material. For example, `!!! note` or `!!! warning`. See the [MkDocs Material Reference](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) for details on advanced formatting.
+- Everything else, including regular text and lists, should be written in plain Markdown.
 
 ## Editing Tools
 
