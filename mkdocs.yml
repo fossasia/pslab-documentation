@@ -40,6 +40,7 @@ nav:
   - Introduction to PSLab:
     - Introduction: introduction.md
     - Getting Started: gettingstarted.md
+    - Wi-Fi Setup: wifi-guide.md
     - Applications: application/Readme.md
     - Python Library: python-library/index.md
   - Hardware:
