@@ -1,4 +1,4 @@
-site_name: Pocket Science Labs Documentation
+site_name: Pocket Science Lab Documentation
 site_description: Documentation for PSLab hardware and its associated applications.
 site_author: FOSSASIA
 copyright: 2019-2026, FOSSASIA
@@ -12,10 +12,11 @@ theme:
     code: Roboto Mono
   palette:
     - scheme: default
-      primary: red
-      accent: red
+      primary: custom
+      accent: custom
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
 

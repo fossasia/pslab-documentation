@@ -1,6 +1,7 @@
 :root {
+  --md-primary-fg-color: #D32F2F;
+  --md-accent-fg-color: #D32F2F;
   --md-admonition-icon--note: svg-icon;
-  /* Override corner radius and shadows to look more professional/sharp, as requested */
   --md-code-radius: 0;
   --md-typeset-table-radius: 0;
   --md-admonition-radius: 0;
@@ -9,7 +10,6 @@
   --md-shadow-z3: none;
 }
 
-/* Force all cards and generic elements to have no radius and no shadow */
 .md-typeset .md-card,
 .md-typeset .admonition,
 .md-typeset details,
@@ -19,25 +19,63 @@ img {
   box-shadow: none !important;
 }
 
-/* If MkDocs material adds any box-shadow to header or search */
-.md-header {
+.md-header,
+.md-tabs {
+  background-color: #ffffff !important;
+  color: #333333 !important;
   box-shadow: none !important;
   border-bottom: 1px solid #e0e0e0;
 }
 
-/* Ensure images don't look weird or misaligned */
+
+.md-header {
+  border-bottom: none;
+}
+
+.md-header__button,
+.md-header__title,
+.md-header__source,
+.md-tabs__link {
+  color: #333333 !important;
+}
+
+.md-tabs__link--active,
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link:hover {
+  color: #D32F2F !important;
+}
+
+.md-header__button svg,
+.md-header__source svg {
+  fill: #333333 !important;
+}
+
 .md-typeset img {
   display: block;
   max-width: 100%;
-  margin: 0 auto; /* Center alignment */
+  margin: 0 auto;
 }
 
-/* Remove border-radius on search bar */
-.md-search__input {
+.md-search__form {
+  background-color: transparent !important;
+  border: 1px solid #000000 !important;
   border-radius: 0 !important;
 }
+.md-search__input {
+  background-color: transparent !important;
+  color: #333333 !important;
+  border-radius: 0 !important;
+}
+.md-search__input::placeholder {
+  color: #777777 !important;
+}
+.md-search__icon,
+.md-search__icon svg {
+  color: #333333 !important;
+  fill: #333333 !important;
+}
 
-/* Expand layout to utilize full screen real estate with minimal margins */
+
 .md-grid {
   max-width: 100%;
   padding-left: 0.5rem;
