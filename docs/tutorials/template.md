@@ -11,7 +11,7 @@
 
 ### Required Components
 
-![Picture of Components](https://via.placeholder.com/512?text=Picture%20Of%20Components)
+![Picture of Components](https://placeholder.photo/512?text=Picture%20Of%20Components)
 
 |   | Component Name | Amount Needed |
 |---|----------------|---------------|
@@ -29,11 +29,11 @@ Oscilloscope, Multimeter, Logic Analyzer
 
 #### Circuit Diagram
 
-![Circuit Diagram](https://via.placeholder.com/1024x512?text=Circuit+Diagram)
+![Circuit Diagram](https://placeholder.photo/1024x512?text=Circuit+Diagram)
 
 #### Breadboard Diagram
 
-![Breadboard Diagram](https://via.placeholder.com/1024x512?text=Breadboard+Diagram)
+![Breadboard Diagram](https://placeholder.photo/1024x512?text=Breadboard+Diagram)
 
 ### Step-By-Step Tutorial
 
@@ -46,7 +46,7 @@ Oscilloscope, Multimeter, Logic Analyzer
 
 ### Expected Result
 
-![Expected Result](https://via.placeholder.com/1024x512?text=Expected+Result)
+![Expected Result](https://placeholder.photo/1024x512?text=Expected+Result)
 
 ### What to observe
 
