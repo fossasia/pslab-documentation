@@ -12,9 +12,9 @@ The PSLab app is built to run anywhere you need it.
 | :--- | :--- |
 | **Android** | Available on the [Google Play Store](https://play.google.com/store/apps/details?id=io.pslab) and [F-Droid](https://f-droid.org/de/packages/io.pslab/) |
 | **iOS** | Available on the [App Store](https://apps.apple.com/app/pslab/id6740454978) |
-| **Windows** | Development builds available through [GitHub](https://github.com/fossasia/pslab-app/tree/app) |
-| **macOS** | Development builds available through [GitHub](https://github.com/fossasia/pslab-app/tree/app) |
-| **Linux** | Flatpak available on [Flathub](https://flathub.org/apps/io.pslab.PSLab)<br>Development builds available through [GitHub](https://github.com/fossasia/pslab-app/tree/app) |
+| **Windows** | Development builds available through [GitHub](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fossasia/pslab-app/refs/heads/app/index.html) |
+| **macOS** | Development builds available through [GitHub](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fossasia/pslab-app/refs/heads/app/index.html) |
+| **Linux** | Flatpak available on [Flathub](https://flathub.org/apps/io.pslab.PSLab)<br>Development builds available through [GitHub](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fossasia/pslab-app/refs/heads/app/index.html) |
 | **Web** | Access the [Web Application](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fossasia/pslab-app/refs/heads/app/index.html) |
 
 ---
